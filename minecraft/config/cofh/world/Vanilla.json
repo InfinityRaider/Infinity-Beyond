@@ -1,0 +1,1741 @@
+{
+    "dirt": {
+        "template": "uniform",
+        "block": "minecraft:dirt",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "gravel": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0,
+                "weight": 900
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 0,
+                "weight": 22
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 1,
+                "weight": 7
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 2,
+                "weight": 14
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 3,
+                "weight": 10
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 4,
+                "weight": 27
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 5,
+                "weight": 1
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "iron": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:iron_ore",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 7,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseIron",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "gold": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:gold_ore",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 8,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseGold",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "copper": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 9,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseCopper",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "tin": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 1,
+                "weight": 50
+            },
+            {
+                "name": "Railcraft.tile.railcraft.ore",
+                "metadata": 10,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseTin",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "silver": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 50
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 10
+            },
+            {
+                "name": "CustomItems:orePoorSilver",
+                "metadata": 0,
+                "weight": 30
+            },
+            {
+                "name": "CustomItems:oreDenseSilver",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "lead": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 70
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            },
+            {
+                "name": "CustomItems:orePoorLead",
+                "metadata": 0,
+                "weight": 30
+            },
+            {
+                "name": "CustomItems:oreDenseLead",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "nickel": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorNickel",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseNickel",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "platinum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorPlatinum",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDensePlatinum",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "aluminum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 5,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorAluminum",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseAluminum",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 7,
+        "minHeight": 30,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "osmium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Mekanism:OreBlock",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorOsmium",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseOsmium",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 7,
+        "minHeight": 30,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "zinc": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 1,
+                "weight": 50
+            },
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 2,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseZinc",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 30,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minechem:tile.oreUranium",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorUranium",
+                "metadata": 7,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseUranium",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 1,
+        "minHeight": 20,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "coal": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:coal_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseCoal",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "redstone": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:redstone_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseRedstone",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "diamond": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:diamond_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseDiamond",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "emerald": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:emerald_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseEmerald",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 30,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "lapis": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "minecraft:lapis_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseLapis",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 1,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "apatite": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Forestry:tile.resources",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseApatite",
+                "metadata": 6,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 1,
+        "minHeight": 64,
+        "maxHeight": 124,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "certusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseCertus",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 20,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "quantum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "qCraft:ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseQuantum",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 5,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "silicon": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseSilicon",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 8,
+        "minHeight": 60,
+        "maxHeight": 124,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "sulfur": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseSulfur",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "minHeight": 50,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "salt": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "harvestcraft:salt",
+                "metadata": 0,
+                "weight": 90
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 8,
+        "minHeight": 20,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "ocean",
+            "frozenocean",
+            "oceanoilfield",
+            "kelpforest",
+            "coralreef",
+            "deepocean",
+            "arctic"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "quartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:quartz_ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseQuartz",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 18,
+        "maxHeight": 116,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "cobalt": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseCobalt",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "minHeight": 18,
+        "maxHeight": 116,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "ardite": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 2,
+                "weight": 90
+            },
+            {
+                "name": "CustomItems:oreDenseArdite",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "minHeight": 18,
+        "maxHeight": 116,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "dd_dirt": {
+        "template": "uniform",
+        "block": "minecraft:dirt",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 40,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_gravel": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0,
+                "weight": 400
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 0,
+                "weight": 44
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 1,
+                "weight": 14
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 2,
+                "weight": 28
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 3,
+                "weight": 20
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 4,
+                "weight": 54
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 5,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_iron": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:iron_ore",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 7,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseIron",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 40,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_gold": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:gold_ore",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 8,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseGold",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 16,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_copper": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 9,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseCopper",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_tin": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 1,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft.tile.railcraft.ore",
+                "metadata": 10,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseTin",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_silver": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorSilver",
+                "metadata": 0,
+                "weight": 10
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 10
+            },
+            {
+                "name": "CustomItems:oreDenseSilver",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_lead": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorLead",
+                "metadata": 0,
+                "weight": 10
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            },
+            {
+                "name": "CustomItems:oreDenseLead",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_nickel": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorNickel",
+                "metadata": 4,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseNickel",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_platinum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorPlatinum",
+                "metadata": 0,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDensePlatinum",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_aluminum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 5,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorAluminum",
+                "metadata": 0,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseAluminum",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 14,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_osmium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Mekanism:OreBlock",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorOsmium",
+                "metadata": 0,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseOsmium",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 14,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_zinc": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 1,
+                "weight": 60
+            },
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 2,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseZinc",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 14,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minechem:tile.oreUranium",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "CustomItems:orePoorUranium",
+                "metadata": 7,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseUranium",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 3,
+        "minHeight": 20,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "dd_coal": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:coal_ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseCoal",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 40,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_redstone": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:redstone_ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseRedstone",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 16,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_diamond": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:diamond_ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseDiamond",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_emerald": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:emerald_ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseEmerald",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_lapis": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:lapis_ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseLapis",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_apatite": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Forestry:tile.resources",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseApatite",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_certusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 30
+            },
+            {
+                "name": "CustomItems:oreDenseCertus",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_quantum": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "qCraft:ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseQuantum",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_silicon": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseSilicon",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 16,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_sulfur": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Railcraft:tile.railcraft.ore",
+                "metadata": 0,
+                "weight": 70
+            },
+            {
+                "name": "CustomItems:oreDenseSulfur",
+                "metadata": 0,
+                "weight": 30
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    }
+}

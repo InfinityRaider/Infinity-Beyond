@@ -1,0 +1,37 @@
+<!--
+This is the user configurable SAG Mill recipe file. This file will not be modified or removed by EnderIO.
+
+Adding new Recipes:
+For details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+Removing Recipes:
+To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+<recipeGroup name="Forestry" enabled="false"/>
+
+To disable individual recipes, simply provide an invalid recipe for them:
+
+<recipeGroup name="Applied Energistics">
+  <recipe name="CertusQuartzOre"/>
+</recipeGroup>
+
+To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as
+found in the core file.
+ 
+-->
+
+<SAGMillRecipes>
+<recipeGroup name="EnderIO" enabled="false"/>
+<recipeGroup name="Vanilla" enabled="false"/>
+<recipeGroup name="Common Ores/Ingots" enabled="false"/>
+<recipeGroup name="Thermal Expansion" enabled="false"/>
+<recipeGroup name="Forestry" enabled="false"/>
+<recipeGroup name="Applied Energistics" enabled="false"/>
+<recipeGroup name="Railcraft" enabled="false"/>
+<recipeGroup name="Biomes O' Plenty" enabled="false"/>
+<recipeGroup name="Metallurgy" enabled="false"/>
+<recipeGroup name="Mekanism" enabled="false"/>
+<recipeGroup name="Engineer's Toolbox" enabled="false"/>
+<recipeGroup name="BigReactors" enabled="false"/>
+<recipeGroup name="UndergroundBiomesConstruct" enabled="false"/>
+</SAGMillRecipes>
