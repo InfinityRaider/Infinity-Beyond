@@ -327,6 +327,7 @@ recipes.remove(<Steamcraft:steamcraftNugget:2>);
 recipes.remove(<Mariculture:materials:33>);
 recipes.remove(<Railcraft:nugget:0>);
 recipes.remove(<TConstruct:materials:19>);
+recipes.addShaped(<minecraft:iron_ingot>,[[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>]]);
 
 <ore:dustIron>.remove(<EnderIO:itemPowderIngot:1>);
 <ore:dustIron>.remove(<Mekanism:Dust:0>);
