@@ -1,0 +1,33 @@
+val enderdust = <ore:dustEnderPearl>;
+#val stablefabric = <5928>;
+val obsidian = <ore:obsidian>;
+val iron = <minecraft:iron_ingot>;
+val basiccircuit = <ore:circuitBasic>;
+val elitecircuit = <ore:circuitElite>;
+val enderpearl = <minecraft:ender_pearl>;
+val glowstone = <ore:blockGlowstone>;
+#val gravitycontroller = item.GravityController;
+val glasspane = <minecraft:glass_pane>;
+
+#val portalgun = <13457:0>;
+#val miniblackhole = <13468>;
+#val sentryturret = <13463:0>;
+#val gravitygun = <13446:0>;
+#val gravityguncharged = <13446:1>;
+val syncconstructor = <Sync:Sync_BlockPlacer:0>;
+val syncstorage = <Sync:Sync_BlockPlacer:1>;
+val synccore = <Sync:Sync_ItemPlaceholder>;
+
+#recipes.remove(<13466>);
+#recipes.remove(miniblackhole);
+#recipes.remove(portalgun);
+#recipes.remove(item.PortalGunOrange);
+#recipes.remove(sentryturret);
+#recipes.remove(gravitygun);
+#recipes.remove(gravityguncharged);
+recipes.remove(syncconstructor);
+#recipes.addShaped(miniblackhole, [[enderdust, enderdust, enderdust], [enderdust, stablefabric, enderdust], [enderdust, enderdust, enderdust]]);
+#recipes.addShaped(portalgun, [[obsidian, iron, iron], [diamond, miniblackhole, elitecircuit], [iron, obsidian, iron]]);
+#recipes.addShaped(sentryturret, [[iron, iron, iron], [iron, basiccircuit, iron], [obsidian, null, obsidian]]);
+#recipes.addShaped(gravitygun, [[diamond, enderpearl, iron], [enderpearl, glowstone, enderpearl], [iron, enderpearl, gravitycontroller]]);
+recipes.addShaped(syncconstructor, [[obsidian, synccore, obsidian], [glasspane, syncstorage, glasspane], [obsidian, elitecircuit, obsidian]]);

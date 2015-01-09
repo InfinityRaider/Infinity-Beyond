@@ -1,0 +1,138 @@
+Minerals
+--------
+Aluminum	-	TConstruct:SearedBrick:5		-	Galacticraft, Mariculture, Tinker's Construct
+Ardite		-	TConstruct:SearedBrick:2		-	Tinker's Construct
+Cobalt		-	TConstruct:SearedBrick:1		-	Tinker's Construct
+Copper		-	ThermalFoundation:Ore:0 		-	Forestry, Galacticraft, Mariculture, Mekanism, Flaxbeard's Steampower, Tinker's Construct, Thermal Expansion
+Desh		-	GalacticraftMars:tile.mars:2		-	Galacticraft
+Gold		-	minecraft:gold_ore			-	Minecraft
+Iron		-	minecraft:iron_ore 			-	Minecraft
+Lead		-	ThermalFoundation:Ore:3			-	Thermal Expansion
+Mithril		-	ThermalFoundation:Ore:6			-	Thermal Expansion
+Nickel		-	ThermalFoundation:Ore:4			-	Thermal Expansion
+Osmium		-	Mekanism:OreBlock:0			-	Mekanism
+Platinum	-	ThermalFoundation:Ore:5			-	Thermal Expansion
+Rutile		-	Mariculture:rocks:3			-	Mariculture
+Silver		-	ThermalFoundation:Ore:2			-	Thermal Expansion
+Tin		-	ThermalFoundation:Ore:1 		-	Forestry, Galacticraft, Mekanism, Tinker's Construct, Thermal Expansion
+Titanium	-	GalacticraftMars:tile.asteroidsBlock:4	-	Galacticraft
+Zinc		-	Steamcraft:steamcraftOre:1		-	Flaxbeard's Steampower
+
+
+
+Resouces
+--------
+Apatite			-	Forestry:tile.resources:0			-	Forestry
+Certus Quartz		-	appliedenergistics2:tile.OreQuartz:0		-	Applied Energistics
+Certus Quartz (charged)	-	appliedenergistics2:tile.OreQuartzCharged:0	-	Applied Energistics
+Cinnabar		-	Thaumcraft:blockCustomOre:0 			-	Thaumcraft
+Coal			-	minecraft:coal_ore:0				-	Minecraft
+Diamond			-	minecraft:diamond_ore:0				-	Minecraft
+Emerald			-	minecraft:emerald_ore:0				-	Minecraft
+Lapis			-	minecraft:lapis_ore:0				-	Minecraft
+Quantum			-	qCraft:ore:0					-	Qcraft
+Redstone		-	minecraft:redstone_ore:0			-	Minecraft
+Salt			-	harvestcraft:salt:0				-	Pam's Harvestcraftr
+Saltpeter		-	Railcraft:tile.railcraft.ore:1			-	Railcraft
+Silicon			-	GalacticraftCore:tile.gcBlockCore:8		-	Galacticraft
+Sulfur			-	Railcraft:tile.railcraft.ore:0			-	Railcraft
+
+
+
+Gems
+----
+Amber			-	Thaumcraft:blockCustomOre:7	-	Thaumcraft, Biomes O' Plenty
+Malachite		-	BiomesOPlenty:gemOre:10		-	Biomes O' Plenty
+Peridot			-	BiomesOPlenty:gemOre:4		-	Biomes O' Plenty, Project Red
+Ruby			-	BiomesOPlenty:gemOre:2		-	Biomes O' Plenty, Project Red
+Sapphire		-	BiomesOPlenty:gemOre:12		-	Biomes O' Plenty, Project Red
+Tanzanite		-	BiomesOPlenty:gemOre:8		-	Biomes O' Plenty
+Topaz			-	BiomesOPlenty:gemOre:6		-	Biomes O' Plenty
+Air Infused Stone	-	Thaumcraft:blockCustomOre:1 	-	Thaumcraft
+Fire Infused Stone	-	Thaumcraft:blockCustomOre:2 	-	Thaumcraft
+Water Infused Stone	-	Thaumcraft:blockCustomOre:3 	-	Thaumcraft
+Earth Infused Stone	-	Thaumcraft:blockCustomOre:4 	-	Thaumcraft
+Order Infused Stone	-	Thaumcraft:blockCustomOre:5 	-	Thaumcraft
+Entropy Infused Stone	-	Thaumcraft:blockCustomOre:6 	-	Thaumcraft
+
+
+
+Dense Ores
+----------
+Dense Iron Ore		-	denseores:block0:0
+Dense Gold Ore		-	denseores:block0:1
+Dense Lapis Lazuli Ore	-	denseores:block0:2
+Dense Diamond Ore	-	denseores:block0:3
+Dense Emerald Ore	-	denseores:block0:4
+Dense Redstone Ore	-	denseores:block0:5
+Dense Coal Ore		-	denseores:block0:6
+Dense Nether Quartz Ore	-	denseores:block0:7
+Dense Copper Ore	-	denseores:block0:8
+Dense Tin Ore		-	denseores:block0:9
+Dense Silver Ore	-	denseores:block0:10
+Dense Lead Ore		-	denseores:block0:11
+Dense Nickel Ore	-	denseores:block0:12
+Dense Platinum Ore	-	denseores:block0:13
+Dense Mithril Ore	-	denseores:block0:14
+Dense Aluminum Ore	-	denseores:block0:15
+Dense Cobalt Ore	-	denseores:block1:0
+Dense Ardite Ore	-	denseores:block1:1
+Dense Amber Ore		-	denseores:block1:2
+Dense Cinnabar Ore	-	denseores:block1:3
+Dense Osmium Ore	-	denseores:block1:4
+Dense Zinc Ore		-	denseores:block1:5
+Dense Apatite Ore	-	denseores:block1:6
+Dense Quantum Ore	-	denseores:block1:7
+Dense Salt Ore		-	denseores:block1:8
+Dense Sulfur Ore	-	denseores:block1:9
+Dense Silicon Ore	-	denseores:block1:10
+Dense Ruby Ore		-	denseores:block1:11
+Dense Peridot Ore	-	denseores:block1:12
+Dense Topaz Ore		-	denseores:block1:13
+Dense Tanzanite Ore	-	denseores:block1:14
+Dense Malachite Ore	-	denseores:block1:15
+Dense Sapphire Ore	-	denseores:block2:0
+Dense Certus Quartz Ore	-	denseores:block2:1
+
+
+
+Poor Ores
+---------
+Poor Iron Ore		-	Railcraft:tile.railcraft.ore:7
+Poor Gold Ore		-	Railcraft:tile.railcraft.ore:8
+Poor Copper Ore		-	Railcraft:tile.railcraft.ore:9
+Poor Tin Ore		-	Railcraft:tile.railcraft.ore:10
+poor Zinc Ore		-	Steamcraft:steamcraftOre:2
+
+
+
+Gravel Ores
+-----------
+Iron Gravel Ore		-	TConstruct:GravelOre:0
+Gold Gravel Ore		-	TConstruct:GravelOre:1
+Copper Gravel Ore	-	TConstruct:GravelOre:2
+Tin Gravel Ore		-	TConstruct:GravelOre:3
+Aluminum Gravel Ore	-	TConstruct:GravelOre:4
+Cobalt Gravel Ore	-	TConstruct:GravelOre:5
+
+
+
+Abyssal Ores
+------------
+Dark Diamond Ore	-	Railcraft:tile.railcraft.ore:2
+Dark Emerald Ore	-	Railcraft:tile.railcraft.ore:3
+Dark Lapis Ore		-	Railcraft:tile.railcraft.ore:4
+
+
+
+Sediment
+--------
+Stone			-	minecraft:stone
+Dirt			-	minecraft:dirt
+Gravel			-	minecraft:gravel
+Abyssal Stone		-	Railcraft:tile.railcraft.cube:6
+Limestone (Mariculture)	-	Mariculture:limestone
+Limestone (Chisel)	-	chisel:chisel.limestone
+Marble (Chisel)		-	chisel:chisel.marble
+Marble (P:R)		-	ProjRed|Exploration:projectred.exploration.stone
+Basalt			-	ProjRed|Exploration:projectred.exploration.stone:3
