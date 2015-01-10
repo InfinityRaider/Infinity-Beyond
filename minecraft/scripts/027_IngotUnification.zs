@@ -327,7 +327,7 @@ recipes.remove(<Steamcraft:steamcraftNugget:2>);
 recipes.remove(<Mariculture:materials:33>);
 recipes.remove(<Railcraft:nugget:0>);
 recipes.remove(<TConstruct:materials:19>);
-recipes.addShaped(<minecraft:iron_ingot>,[[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>]]);
+#recipes.addShaped(<minecraft:iron_ingot>,[[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>]]);
 
 <ore:dustIron>.remove(<EnderIO:itemPowderIngot:1>);
 <ore:dustIron>.remove(<Mekanism:Dust:0>);
@@ -386,4 +386,3 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:13>);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:73>, <liquid:bronze.molten>, <TConstruct:metalPattern:0>, false, 20);
 mods.mekanism.Infuser.removeRecipe(<Mekanism:Ingot:2>);
 mods.mekanism.Infuser.addRecipe("TIN", 10, <ThermalFoundation:material:64>, <ThermalFoundation:material:73>);
-
