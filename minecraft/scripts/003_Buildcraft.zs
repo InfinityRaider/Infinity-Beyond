@@ -8,7 +8,7 @@ recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipepowergold>);
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>);
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald>);
 recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone>);
-
+/*
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemswood>, [<BuildCraft|Transport:item.buildcraftPipe.pipepowerwood>]);
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone>, [<BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone>]);
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsstone>, [<BuildCraft|Transport:item.buildcraftPipe.pipepowerstone>]);
@@ -18,7 +18,7 @@ recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold>
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>, [<BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>]);
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>, [<BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald>]);
 recipes.removeShapeless(<BuildCraft|Transport:item.buildcraftPipe.pipeitemssandstone>, [<BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone>]);
-
+*/
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);
 recipes.remove(<BuildCraft|Factory:machineBlock>);
 recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
