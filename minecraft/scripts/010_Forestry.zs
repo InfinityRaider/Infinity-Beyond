@@ -1,5 +1,7 @@
 val seedoil = <liquid:seedoil>;
 
+recipes.remove(<chococraft:Gysahl_Seeds>);
+
 #modSupport.forestry.squeezer.addRecipe(seedoil * 10, <15552>, 10);
 #modSupport.forestry.squeezer.addRecipe(seedoil * 10, <15557>, 10);
 #modSupport.forestry.squeezer.addRecipe(seedoil * 10, <15560>, 10);
