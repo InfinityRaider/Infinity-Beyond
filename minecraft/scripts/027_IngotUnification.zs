@@ -4,6 +4,7 @@ recipes.remove(<TConstruct:materials:16>);
 recipes.remove(<Mekanism:Ingot:4>);
 furnace.remove(<Mekanism:Ingot:4>,<Mekanism:Dust:5>);
 furnace.addRecipe(<AncientWarfare:steel_ingot>,<Mekanism:Dust:5>);
+<ore:ingotSteel>.add(<AncientWarfare:steel_ingot>);
 mods.thermalexpansion.Furnace.removeRecipe(<Mekanism:Dust:5>*1);
 mods.thermalexpansion.Furnace.addRecipe(1000,<Mekanism:Dust:5>*1,<AncientWarfare:steel_ingot>);
 mods.thermalexpansion.Smelter.removeRecipe(<Mekanism:Dust:5>, <minecraft:sand>);
@@ -21,13 +22,9 @@ mods.thermalexpansion.Smelter.addRecipe(8000, <ThermalFoundation:material:2>*2, 
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:coal:1>*4, <ThermalFoundation:material:0>);
 
 <ore:nuggetSteel>.remove(<TConstruct:materials:33>);
-mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:33>);
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:16>);
-mods.tconstruct.Casting.addTableRecipe(<AncientWarfare:steel_ingot>, <liquid:steel.molten>, <TConstruct:metalPattern:0>, false, 20);
 
 recipes.remove(<AncientWarfare:steel_ingot>);
-recipes.remove(<Railcraft:nugget:1>);
-recipes.addShapeless(<Railcraft:nugget:1>*9,[<ore:ingotSteel>]);
+recipes.addShapeless(<TConstruct:materials:33>*9,[<ore:ingotSteel>]);
 
 <ore:blockSteel>.remove(<Railcraft:tile.railcraft.cube:2>);
 <ore:blockSteel>.remove(<Mekanism:BasicBlock:5>);
@@ -48,6 +45,7 @@ recipes.addShaped(<TConstruct:MetalBlock:9>, [[<AncientWarfare:steel_ingot>,<Anc
 <ore:ingotSteel>.add(<AncientWarfare:steel_ingot>);
 <ore:ingotSteel>.remove(<TConstruct:materials:16>);
 <ore:ingotSteel>.remove(<Mekanism:Ingot:4>);
+recipes.addShaped(<AncientWarfare:steel_ingot>,[[<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>], [<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>], [<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>]]);
 
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_ingot>, false, false, 1280, <AncientWarfare:steel_ingot>);
 mods.railcraft.BlastFurnace.addRecipe(<Railcraft:part.plate:0>, true, false, 5120, <Railcraft:part.plate:1>);
@@ -64,10 +62,12 @@ mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_hoe>, false, false, 2560, 
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:shears>, false, false, 2560, <AncientWarfare:steel_ingot>*2);
 mods.railcraft.BlastFurnace.addRecipe(<Railcraft:tool.crowbar>, false, false, 3840, <AncientWarfare:steel_ingot>*3);
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:iron_door>, false, false, 7680, <AncientWarfare:steel_ingot>*6);
-
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:16>);
 mods.tconstruct.Smeltery.removeMelting(<Mekanism:Ingot:4>);
-mods.tconstruct.Smeltery.addMelting(<AncientWarfare:steel_ingot>, <liquid:steel.molten>*144, 650, <TConstruct:MetalBlock:9>);
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:33>);
+mods.tconstruct.Smeltery.addMelting(<AncientWarfare:steel_ingot>*1, <liquid:steel.molten>*144, 650, <TConstruct:MetalBlock:9>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:16>);
+mods.tconstruct.Casting.addTableRecipe(<AncientWarfare:steel_ingot>, <liquid:steel.molten>*144, <TConstruct:metalPattern:0>, false, 20);
 mods.mariculture.Crucible.removeRecipe(<TConstruct:materials:16>);
 mods.mariculture.Crucible.removeRecipe(<Mekanism:Ingot:4>);
 mods.mariculture.Crucible.addRecipe(1370, <AncientWarfare:steel_ingot>, <liquid:steel.molten> * 144);
@@ -106,12 +106,10 @@ recipes.addShapeless(<ThermalFoundation:material:64>*9,[<TConstruct:MetalBlock:3
 <ore:nuggetCopper>.remove(<Thaumcraft:ItemNugget:1>);
 <ore:nuggetCopper>.remove(<Steamcraft:steamcraftNugget:0>);
 <ore:nuggetCopper>.remove(<Mariculture:materials:38>);
-<ore:nuggetCopper>.remove(<Railcraft:nugget:2>);
 <ore:nuggetCopper>.remove(<TConstruct:materials:20>);
 recipes.remove(<Thaumcraft:ItemNugget:1>);
 recipes.remove(<Steamcraft:steamcraftNugget:0>);
 recipes.remove(<Mariculture:materials:38>);
-recipes.remove(<Railcraft:nugget:2>);
 recipes.remove(<TConstruct:materials:20>);
 <ore:dustCopper>.remove(<EnderIO:itemPowderIngot:3>);
 <ore:dustCopper>.remove(<Mekanism:Dust:6>);
@@ -129,9 +127,13 @@ recipes.remove(<Mariculture:materials:4>);
 recipes.remove(<TConstruct:materials:9>);
 recipes.remove(<Mekanism:Ingot:5>);
 furnace.remove(<Forestry:ingotCopper:0>);
+recipes.addShaped(<ThermalFoundation:material:64>, [[<ThermalFoundation:material:96>, <ThermalFoundation:material:96>, <ThermalFoundation:material:96>], [<ThermalFoundation:material:96>, <ThermalFoundation:material:96>, <ThermalFoundation:material:96>], [<ThermalFoundation:material:96>,<ThermalFoundation:material:96>, <ThermalFoundation:material:96>]]);
+recipes.addShapeless(<ThermalFoundation:material:96>*9,[<ThermalFoundation:material:64>]);
 furnace.addRecipe(<ThermalFoundation:material:64>,<aobd:crushedCopper>);
 #furnace.remove(<Forestry:ingotCopper:0>*2);
+furnace.remove(<TConstruct:materials:20>);
 furnace.addRecipe(<ThermalFoundation:material:64>*2,<Thaumcraft:ItemNugget:17>);
+furnace.addRecipe(<ThermalFoundation:material:96>, <TConstruct:oreBerries:2>);
 furnace.remove(<GalacticraftCore:item.basicItem:3>);
 furnace.addRecipe(<ThermalFoundation:material:64>,<GalacticraftCore:tile.moonBlock:0>);
 furnace.addRecipe(<ThermalFoundation:material:64>,<GalacticraftMars:tile.mars:0>);
@@ -148,11 +150,13 @@ mods.thermalexpansion.Furnace.addRecipe(1600,<MorePlanet:fronos_block:6>*1,<Ther
 mods.thermalexpansion.Furnace.addRecipe(1600,<MorePlanet:kapteyn-b_block:8>*1,<ThermalFoundation:material:64>);
 mods.thermalexpansion.Furnace.addRecipe(1600,<TConstruct:GravelOre:2>*1,<ThermalFoundation:material:64>);
 mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedCopper>);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:oreBerries:2>);
 mods.thermalexpansion.Furnace.addRecipe(1600,<aobd:crushedCopper>*1,<ThermalFoundation:material:64>);
+mods.thermalexpansion.Furnace.addRecipe(1600,<TConstruct:oreBerries:2>*1,<ThermalFoundation:material:96>);
 mods.thermalexpansion.Furnace.removeRecipe(<Thaumcraft:ItemNugget:17>);
 mods.thermalexpansion.Furnace.addRecipe(1600,<Thaumcraft:ItemNugget:17>*1,<ThermalFoundation:material:64>*2);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:9>);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:64>, <liquid:copper.molten>, <TConstruct:metalPattern:0>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:64>, <liquid:copper.molten>*144, <TConstruct:metalPattern:0>, false, 20);
 furnace.remove(<Mariculture:materials:4>);
 furnace.remove(<Steamcraft:steamcraftIngot:0>);
 furnace.remove(<Mekanism:Ingot:5>);
@@ -199,11 +203,11 @@ recipes.addShaped(<Railcraft:tile.railcraft.stair:40>*4, [[<TConstruct:MetalBloc
 recipes.remove(<Railcraft:tile.railcraft.slab:40>);
 recipes.addShaped(<Railcraft:tile.railcraft.slab:40>*6, [[<TConstruct:MetalBlock:5>,<TConstruct:MetalBlock:5>,<TConstruct:MetalBlock:5>]]);
 <ore:nuggetTin>.remove(<Thaumcraft:ItemNugget:2>);
-<ore:nuggetTin>.remove(<Railcraft:nugget:3>);
 <ore:nuggetTin>.remove(<TConstruct:materials:21>);
 recipes.remove(<Thaumcraft:ItemNugget:2>);
-recipes.remove(<Railcraft:nugget:3>);
 recipes.remove(<TConstruct:materials:21>);
+recipes.addShaped(<ThermalFoundation:material:65>, [[<ThermalFoundation:material:97>, <ThermalFoundation:material:97>, <ThermalFoundation:material:97>], [<ThermalFoundation:material:97>, <ThermalFoundation:material:97>, <ThermalFoundation:material:97>], [<ThermalFoundation:material:97>, <ThermalFoundation:material:97>, <ThermalFoundation:material:97>]]);
+recipes.addShapeless(<ThermalFoundation:material:97>*9,[<ThermalFoundation:material:65>]);
 <ore:dustTin>.remove(<EnderIO:itemPowderIngot:4>);
 <ore:dustTin>.remove(<Mekanism:Dust:7>);
 <ore:dustTin>.remove(<Steamcraft:smashedOre>);
@@ -250,8 +254,11 @@ mods.thermalexpansion.Furnace.addRecipe(1600,<TConstruct:GravelOre:3>*1,<Thermal
 furnace.remove(<Mekanism:Ingot:6>);
 furnace.remove(<TConstruct:materials:10>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:10>);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:65>, <liquid:tin.molten>, <TConstruct:metalPattern:0>, false, 20);
-
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:65>, <liquid:tin.molten>*144, <TConstruct:metalPattern:0>, false, 20);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:oreBerries:3>);
+mods.thermalexpansion.Furnace.addRecipe(1600,<TConstruct:oreBerries:3>*1,<ThermalFoundation:material:97>);
+furnace.remove(<TConstruct:materials:21>);
+furnace.addRecipe(<ThermalFoundation:material:97>, <TConstruct:oreBerries:3>);
 
 
 #silver
@@ -264,9 +271,9 @@ recipes.remove(<Thaumcraft:ItemNugget:3>);
 
 #lead
 <ore:nuggetLead>.remove(<TConstruct:materials:19>);
-<ore:nuggetLead>.remove(<Railcraft:nugget:4>);
+<ore:nuggetLead>.remove(<Thaumcraft:ItemNugget:4>);
 recipes.remove(<TConstruct:materials:19>);
-recipes.remove(<Railcraft:nugget:4>);
+recipes.remove(<Thaumcraft:ItemNugget:4>);
 
 <ore:blockLead>.remove(<Railcraft:tile.railcraft.cube:13>);
 recipes.remove(<Railcraft:tile.railcraft.cube:13>);
@@ -277,8 +284,6 @@ recipes.addShaped(<Railcraft:tile.railcraft.slab:41>*6, [[<ThermalFoundation:Sto
 
 <ore:dustLead>.remove(<Mekanism:Dust:9>);
 <ore:dustLead>.remove(<Steamcraft:smashedOre:7>);
-
-
 
 
 #aluminum
@@ -320,18 +325,22 @@ mods.thermalexpansion.Furnace.addRecipe(1600,<Steamcraft:smashedOre:8>*1,<TConst
 <ore:nuggetIron>.remove(<Thaumcraft:ItemNugget:0>);
 <ore:nuggetIron>.remove(<Steamcraft:steamcraftNugget:2>);
 <ore:nuggetIron>.remove(<Mariculture:materials:33>);
-<ore:nuggetIron>.remove(<Railcraft:nugget:0>);
 <ore:nuggetIron>.remove(<TConstruct:materials:19>);
 recipes.remove(<Thaumcraft:ItemNugget:0>);
 recipes.remove(<Steamcraft:steamcraftNugget:2>);
 recipes.remove(<Mariculture:materials:33>);
-recipes.remove(<Railcraft:nugget:0>);
 recipes.remove(<TConstruct:materials:19>);
-#recipes.addShaped(<minecraft:iron_ingot>,[[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>],[<Railcraft:nugget:0>,<Railcraft:nugget:0>,<Railcraft:nugget:0>]]);
+recipes.remove(<ThermalFoundation:material:0>);
+recipes.addShaped(<minecraft:iron_ingot>, [[<ThermalFoundation:material:8>, <ThermalFoundation:material:8>, <ThermalFoundation:material:8>], [<ThermalFoundation:material:8>, <ThermalFoundation:material:8>, <ThermalFoundation:material:8>], [<ThermalFoundation:material:8>, <ThermalFoundation:material:8>, <ThermalFoundation:material:8>]]);
 
 <ore:dustIron>.remove(<EnderIO:itemPowderIngot:1>);
 <ore:dustIron>.remove(<Mekanism:Dust:0>);
 <ore:dustIron>.remove(<Steamcraft:smashedOre:0>);
+mods.thermalexpansion.Furnace.removeRecipe(<TConstruct:oreBerries:0>);
+mods.thermalexpansion.Furnace.addRecipe(1600,<TConstruct:oreBerries:0>*1,<ThermalFoundation:material:8>);
+furnace.remove(<TConstruct:materials:19>);
+furnace.addRecipe(<ThermalFoundation:material:8>, <TConstruct:oreBerries:0>);
+
 
 
 
@@ -350,14 +359,16 @@ furnace.remove(<GalacticraftMars:item.itemBasicAsteroids:5>);
 furnace.addRecipe(<Mariculture:materials:2>*1,<GalacticraftMars:tile.asteroidsBlock:4>*1);
 furnace.addRecipe(<Mariculture:materials:2>*1,<GalacticraftMars:item.itemBasicAsteroids:4>*1);
 furnace.addRecipe(<Mariculture:materials:2>*1,<CustomItems:dustTitanium>*1);
+
 mods.thermalexpansion.Furnace.removeRecipe(<GalacticraftMars:tile.asteroidsBlock:4>);
 mods.thermalexpansion.Furnace.removeRecipe(<GalacticraftMars:item.itemBasicAsteroids:4>);
 mods.thermalexpansion.Furnace.removeRecipe(<CustomItems:dustTitanium>);
 mods.thermalexpansion.Furnace.addRecipe(1600,<GalacticraftMars:tile.asteroidsBlock:4>*1,<Mariculture:materials:2>*1);
 mods.thermalexpansion.Furnace.addRecipe(1600,<GalacticraftMars:item.itemBasicAsteroids:4>*1,<Mariculture:materials:2>*1);
 mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:dustTitanium>*1,<Mariculture:materials:2>*1);
-mods.tconstruct.Casting.removeTableRecipe(<GalacticraftMars:item.itemBasicAsteroids:5>);
-mods.tconstruct.Casting.addTableRecipe(<Mariculture:materials:2>, <liquid:titanium.molten>, <TConstruct:metalPattern:0>, false, 20);
+
+mods.tconstruct.Casting.addTableRecipe(<Mariculture:materials:2>, <liquid:titanium.molten>*144, <TConstruct:metalPattern:0>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<Mariculture:materials:36>, <liquid:titanium.molten>*16, <TConstruct:metalPattern:27>, false, 20);
 
 
 
@@ -383,6 +394,7 @@ recipes.remove(<Forestry:ingotBronze>);
 recipes.remove(<TConstruct:materials:13>);
 recipes.remove(<Mekanism:Ingot:2>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:13>);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:73>, <liquid:bronze.molten>, <TConstruct:metalPattern:0>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:73>, <liquid:bronze.molten>*144, <TConstruct:metalPattern:0>, false, 20);
+
 mods.mekanism.Infuser.removeRecipe(<Mekanism:Ingot:2>);
 mods.mekanism.Infuser.addRecipe("TIN", 10, <ThermalFoundation:material:64>, <ThermalFoundation:material:73>);
