@@ -12,6 +12,23 @@ mods.nei.NEI.hide(<Forestry:gearTin>);
 mods.nei.NEI.hide(<Forestry:gearCopper>);
 mods.nei.NEI.hide(<Forestry:gearBronze>);
 */
+/*
+#Extra utilities
+mods.nei.NEI.hide(<ExtraUtilities:generator:0>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:1>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:2>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:3>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:4>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:5>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:6>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:7>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:8>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:9>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:10>);
+mods.nei.NEI.hide(<ExtraUtilities:generator:11);
+mods.nei.NEI.hide(<ore:enderobsidian>);
+*/
+
 #buildcraft
 mods.nei.NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipepowerwood>);
 mods.nei.NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone>);
@@ -75,6 +92,42 @@ val redstoneAlloy = <EnderIO:itemAlloy:3>;
 mods.nei.NEI.hide(redstoneAlloyBlock);
 mods.nei.NEI.hide(redstoneAlloy);
 */
+
+#compact machines
+mods.nei.NEI.hide(<CompactMachines:shrinker>);
+mods.nei.NEI.hide(<CompactMachines:enlarger>);
+mods.nei.NEI.hide(<CompactMachines:interfaceitem>);
+
+#turrets
+mods.nei.NEI.hide(<openmodularturrets:sensorTierOneItem>);
+mods.nei.NEI.hide(<openmodularturrets:sensorTierTwoItem>);
+mods.nei.NEI.hide(<openmodularturrets:sensorTierThreeItem>);
+mods.nei.NEI.hide(<openmodularturrets:sensorTierFourItem>);
+mods.nei.NEI.hide(<openmodularturrets:bulletThrowable>);
+mods.nei.NEI.hide(<openmodularturrets:ioBus>);
+mods.nei.NEI.hide(<openmodularturrets:grenadeThrowable>);
+mods.nei.NEI.hide(<openmodularturrets:baseTierWood>);
+mods.nei.NEI.hide(<openmodularturrets:leverBlock>);
+mods.nei.NEI.hide(<openmodularturrets:disposeItemTurret>);
+mods.nei.NEI.hide(<openmodularturrets:energeticBarrel>);
+mods.nei.NEI.hide(<openmodularturrets:containmentChamber>);
+mods.nei.NEI.hide(<openmodularturrets:chamber>);
+mods.nei.NEI.hide(<openmodularturrets:barrel>);
+
+#soul shards
+mods.nei.NEI.hide(<SSTOW:sstow_forge>);
+mods.nei.NEI.hide(<SSTOW:tile.sstow.forge_block_active>);
+mods.nei.NEI.hide(<SSTOW:sstow_soulium_block>);
+mods.nei.NEI.hide(<SSTOW:sstow_vile_dust>);
+mods.nei.NEI.hide(<SSTOW:sstow_soul_axe>);
+mods.nei.NEI.hide(<SSTOW:sstow_soul_spade>);
+mods.nei.NEI.hide(<SSTOW:sstow_iron_nugget>);
+mods.nei.NEI.hide(<SSTOW:sstow_soulium_nugget>);
+mods.nei.NEI.hide(<SSTOW:sstow_soul_hoe>);
+mods.nei.NEI.hide(<SSTOW:sstow_corrupted_essence>);
+mods.nei.NEI.hide(<SSTOW:sstow_soulium_ingot>);
+mods.nei.NEI.hide(<SSTOW:sstow_soul_pickaxe>);
+
 
 #oredict
 /*

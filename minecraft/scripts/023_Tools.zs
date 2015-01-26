@@ -21,9 +21,6 @@ val tc_ironshovel = <TConstruct:shovel>.withTag({"InfiTool": {"Broken": 0 as byt
 #ironpickaxe
 recipes.remove(<MekanismTools:IronPaxel>);
 recipes.addShaped(<MekanismTools:IronPaxel>, [[tc_ironaxe,tc_ironpick,tc_ironshovel],[null, stick, null], [null, stick, null]]);
-recipes.remove(<ExtraUtilities:enderThermicPump>);
-recipes.addShaped(<ExtraUtilities:enderThermicPump>, [[enderobsidian, diamond, enderobsidian], [lavabucket, endereye, waterbucket], [enderobsidian, tc_ironpick, enderobsidian]]);
-recipes.addShaped(<ExtraUtilities:enderThermicPump>, [[enderobsidian, diamond, enderobsidian], [waterbucket, endereye, lavabucket], [enderobsidian, tc_ironpick, enderobsidian]]);
 recipes.remove(<StevesFactoryManager:BlockCableBreakerName>);
 recipes.addShapeless(<StevesFactoryManager:BlockCableBreakerName>*1,[<StevesFactoryManager:BlockCableName>, tc_ironpick, <minecraft:dispenser>]);
 recipes.remove(<AWWayofTime:sigilOfTheFastMiner>);

@@ -37,3 +37,6 @@ recipes.addShaped(monitor, [[ironplate, ironplate, ironplate], [ironplate, glass
 recipes.addShaped(advmonitor, [[goldplate, goldplate, goldplate], [goldplate, monitor, goldplate], [goldplate, goldplate, goldplate]]);
 recipes.addShaped(turtle, [[ironplate, ironplate, ironplate], [ironplate, computer, ironplate], [ironplate, robit, ironplate]]);
 #recipes.addShaped(advturtle.withTag({}), [[goldplate, goldplate, goldplate], [goldplate, advancedcircuit, goldplate], [goldplate, turtle, goldplate]]);
+
+recipes.remove(<qCraft:computer>);
+recipes.addShaped(<qCraft:computer>, [[<ThermalFoundation:Storage:12>, <qCraft:dust>, <ThermalFoundation:Storage:12>], [<qCraft:dust>, <appliedenergistics2:item.ItemMultiMaterial:48>, <qCraft:dust>], [<ThermalFoundation:Storage:12>, advcomputer, <ThermalFoundation:Storage:12>]]);

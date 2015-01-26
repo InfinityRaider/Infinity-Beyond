@@ -454,6 +454,10 @@ mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:6>*1, <Mekanism:DirtyDust:6>*1);
 mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:7>*1, <Mekanism:DirtyDust:7>*1);
 
 
+#zinc processing
+mods.thermalexpansion.Smelter.addRecipe(8000, <aobd:dustZinc>, <ThermalFoundation:material:32>*3, <Steamcraft:steamcraftIngot:2>*4);
+
+
 
 
 

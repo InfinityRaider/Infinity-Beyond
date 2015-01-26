@@ -1,0 +1,186 @@
+{
+  "0": "WATER",
+  "1": "PLAINS",
+  "2": "SAND",
+  "3": [
+    "golrithsaa:textures/ex_mountains.png"
+  ],
+  "4": "FOREST",
+  "5": "PINES",
+  "6": "SWAMP",
+  "7": "WATER",
+  "9": "BEACH",
+  "10": "FROZEN_WATER",
+  "11": "FROZEN_WATER",
+  "12": "SNOW",
+  "13": [
+    "golrithsaa:textures/ice_mountains.png"
+  ],
+  "14": "MUSHROOM",
+  "15": "BEACH",
+  "17": "HILLS",
+  "16": "BEACH",
+  "19": "MOUNTAINS",
+  "18": "FOREST_HILLS",
+  "21": "JUNGLE",
+  "20": "HILLS",
+  "23": "JUNGLE",
+  "22": "JUNGLE_HILLS",
+  "24": "WATER",
+  "27": [
+    "golrithsaa:textures/birch_forest.png"
+  ],
+  "29": [
+    "golrithsaa:textures/roofed.png"
+  ],
+  "-3": "HOUSE",
+  "28": [
+    "golrithsaa:textures/birch_hills.png"
+  ],
+  "-2": "FENCE",
+  "30": "FOREST",
+  "34": [
+    "golrithsaa:textures/ex_mountains.png"
+  ],
+  "35": [
+    "golrithsaa:textures/savanna2.png"
+  ],
+  "32": [
+    "golrithsaa:textures/megapines.png"
+  ],
+  "33": [
+    "golrithsaa:textures/megapines_hill.png"
+  ],
+  "39": [
+    "golrithsaa:textures/mesa.png"
+  ],
+  "36": [
+    "golrithsaa:textures/savanna_mesa.png"
+  ],
+  "42": [
+    "golrithsaa:textures/bamboo_forest.png"
+  ],
+  "43": "SWAMP",
+  "46": "FOREST",
+  "47": [
+    "golrithsaa:textures/canyon.png"
+  ],
+  "44": [
+    "golrithsaa:textures/bog.png"
+  ],
+  "45": [
+    "golrithsaa:textures/bor_forest.png"
+  ],
+  "51": "FOREST_HILLS",
+  "50": "FOREST_HILLS",
+  "49": [
+    "golrithsaa:textures/cherry.png"
+  ],
+  "48": [
+    "golrithsaa:textures/chapp.png"
+  ],
+  "55": "FOREST",
+  "54": "SWAMP",
+  "53": [
+    "golrithsaa:textures/dead_forest.png"
+  ],
+  "52": [
+    "golrithsaa:textures/crag.png"
+  ],
+  "59": [
+    "golrithsaa:textures/fungiforest.png"
+  ],
+  "58": "FOREST",
+  "57": "PLAINS",
+  "56": [
+    "golrithsaa:textures/fen.png"
+  ],
+  "63": [
+    "golrithsaa:textures/heathland.png"
+  ],
+  "62": "FOREST",
+  "61": "PLAINS",
+  "60": [
+    "golrithsaa:textures/garden3.png"
+  ],
+  "68": "SWAMP",
+  "69": [
+    "golrithsaa:textures/maple2.png"
+  ],
+  "70": "SWAMP",
+  "71": "FOREST",
+  "64": [
+    "golrithsaa:textures/highlands.png"
+  ],
+  "65": [
+    "golrithsaa:textures/jade.png"
+  ],
+  "66": "PLAINS",
+  "67": "FOREST",
+  "76": "PLAINS",
+  "77": [
+    "golrithsaa:textures/outback/outback1.png"
+  ],
+  "78": "PLAINS",
+  "79": "FOREST_HILLS",
+  "72": [
+    "golrithsaa:textures/moor.png"
+  ],
+  "73": "MOUNTAINS",
+  "74": [
+    "golrithsaa:textures/magical_forest.png"
+  ],
+  "75": "PLAINS",
+  "85": [
+    "golrithsaa:textures/sludgepit.png"
+  ],
+  "84": "PLAINS",
+  "87": [
+    "golrithsaa:textures/temp_forest.png"
+  ],
+  "86": "PLAINS",
+  "81": "MOUNTAINS",
+  "80": [
+    "golrithsaa:textures/redwood.png"
+  ],
+  "83": [
+    "golrithsaa:textures/shield.png"
+  ],
+  "82": [
+    "golrithsaa:textures/autumn_forest.png"
+  ],
+  "93": "FOREST",
+  "92": "SWAMP",
+  "89": "JUNGLE",
+  "88": [
+    "golrithsaa:textures/thicket.png"
+  ],
+  "91": "SAND",
+  "90": "SAND",
+  "102": "FOREST",
+  "103": "JUNGLE",
+  "98": "FOREST",
+  "96": "JUNGLE",
+  "108": "FOREST",
+  "104": "FOREST",
+  "140": "HILLS",
+  "131": "HILLS",
+  "130": "PLAINS",
+  "133": "HILLS",
+  "134": "SWAMP",
+  "155": "HILLS",
+  "163": "HILLS",
+  "167": "PLAINS",
+  "205": [
+    "golrithsaa:textures/high_cliff.png"
+  ],
+  "206": [
+    "golrithsaa:textures/desert_mountains.png"
+  ],
+  "218": "MOUNTAINS",
+  "209": "MOUNTAINS",
+  "235": "HILLS",
+  "229": "WATER",
+  "225": "JUNGLE_HILLS",
+  "241": "SWAMP"
+}

@@ -35,7 +35,7 @@ mods.bloodmagic.Altar.addRecipe(potionflask, glassjar, 2, 2000, 5, 5);
 recipes.remove(<AWWayofTime:seerSigil>);
 recipes.addShaped(<AWWayofTime:seerSigil>, [[glass, bloodbucket, glass], [glass, <AWWayofTime:divinationSigil>, glass], [glass, apprenticeOrb, glass]]);
 recipes.remove(necronomicon);
-mods.thaumcraft.Research.addResearch("NECROMANCY", "FORBIDDEN", "perditio 100, mortuus 200, spiritus 100", -1, -2, 8, necronomicon);
+mods.thaumcraft.Research.addResearch("NECROMANCY", "FORBIDDEN", "perditio 100, mortuus 200, spiritus 100", -1, -4, 8, necronomicon);
 mods.thaumcraft.Research.addPrereq("NECROMANCY", "BLOODMAGIC", false);
 game.setLocalization("tc.research_name.NECROMANCY", "Necromancy!");
 game.setLocalization("tc.research_text.NECROMANCY", "[NM] Raising the dead");

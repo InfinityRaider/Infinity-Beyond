@@ -69,3 +69,23 @@ recipes.addShaped(nuclearboiler, [[steelplate, null, steelplate], [redstonefurna
 #recipes.addShaped(remotedetonator, [[redstone, steel, steel], [steel, basiccircuit, button], [steel, steel, steel]]);
 #recipes.addShaped(emptower, [[steel, redstone, steel], [energytablet, advancedcircuit, energytablet], [steel, motor, steel]]);
 #recipes.addShaped(electricmotor, [[steel, basiccircuit, steel], [steel, motor, steel], [steel, copperwire, steel]]);
+
+#mffs
+val focusMatrix = <MFFS:focusMatrix>;
+
+val coercion = <MFFS:coercionDeriver>;
+val capacitor = <MFFS:fortronCapacitor>;
+val projector = <MFFS:electromagneticProjector>;
+val identifier = <MFFS:biometricIdentifier>;
+val mobilizer = <MFFS:forceMobilizer>;
+
+recipes.remove(coercion);
+recipes.addShaped(coercion, [[steel, <ThermalExpansion:Tesseract>, steel], [focusMatrix, <ThermalExpansion:Frame:2>, focusMatrix], [steel, focusMatrix, steel]]);
+recipes.remove(capacitor);
+recipes.addShaped(capacitor , [[steel, <EnderIO:blockCapBank:1>, steel], [focusMatrix, <ThermalExpansion:Frame:2>, focusMatrix], [steel, focusMatrix, steel]]);
+recipes.remove(projector);
+recipes.addShaped(projector , [[steel, <OpenBlocks:projector>, steel], [focusMatrix, <ThermalExpansion:Frame:2>, focusMatrix], [steel, focusMatrix, steel]]);
+recipes.remove(identifier);
+recipes.addShaped(identifier , [[steel, <ComputerCraft:CC-Computer:0>, steel], [focusMatrix, <ThermalExpansion:Frame:2>, focusMatrix], [steel, focusMatrix, steel]]);
+recipes.remove(mobilizer);
+recipes.addShaped(mobilizer , [[steel, <EnderIO:blockTravelAnchor>, steel], [focusMatrix, <ThermalExpansion:Frame:2>, focusMatrix], [steel, focusMatrix, steel]]);

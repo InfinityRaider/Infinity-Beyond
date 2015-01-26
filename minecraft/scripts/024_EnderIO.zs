@@ -56,10 +56,15 @@ val redstoneConduit = <EnderIO:itemRedstoneConduit:0>;
 val redstoneAlloyBlock = <EnderIO:blockIngotStorage:3>;
 val redstoneConduitIns = <EnderIO:itemRedstoneConduit:2>;
 val redAlloyIngot = <ProjRed|Core:projectred.core.part:10>;
+val binderComposite = <EnderIO:itemMaterial:2>;
 val conduitBinder = <EnderIO:itemMaterial:1>;
 val fusedQuartz = <EnderIO:blockFusedQuartz:0>;
 val qClearGlass = <EnderIO:blockFusedQuartz:1>;
 val electroMagnet = <EnderIO:itemMagnet:16>.withTag({Energy: 0})*1;
+
+furnace.remove(conduitBinder);
+mods.thermalexpansion.Furnace.removeRecipe(binderComposite);
+mods.thermalexpansion.Smelter.addRecipe(2000, binderComposite, silicon, conduitBinder*4);
 
 mods.thermalexpansion.Smelter.addRecipe(8000, <ThermalFoundation:material:43>, <ThermalFoundation:material:44>, vibrantIngot);
 mods.thermalexpansion.Smelter.addRecipe(8000, <minecraft:glowstone_dust>, <ThermalFoundation:material:42>, energeticIngot);
@@ -83,8 +88,13 @@ recipes.remove(redstoneConduitIns);
 recipes.addShaped(redstoneConduit, [[redAlloyIngot, redAlloyIngot, redAlloyIngot]]);
 recipes.addShaped(redstoneConduitIns, [[conduitBinder, conduitBinder, conduitBinder], [<ProjRed|Transmission:projectred.transmission.wire:0>, <ProjRed|Transmission:projectred.transmission.wire:0>, <ProjRed|Transmission:projectred.transmission.wire:0>], [conduitBinder, conduitBinder, conduitBinder]]);
 
+
+recipes.remove(<EnderIO:itemBasicCapacitor:0>);
+recipes.addShaped(<EnderIO:itemBasicCapacitor:0>, [[null, <minecraft:gold_nugget>, <minecraft:redstone>], [<minecraft:gold_nugget>, <Mekanism:EnergyTablet:100>, <minecraft:gold_nugget>], [<minecraft:redstone>, <minecraft:gold_nugget>, null]]);
+recipes.remove(<EnderIO:itemBasicCapacitor:1>);
+recipes.addShaped(<EnderIO:itemBasicCapacitor:1>, [[null, energeticIngot, null], [<EnderIO:itemBasicCapacitor:0>,<Mekanism:EnergyTablet:100>,<EnderIO:itemBasicCapacitor:0>], [null, energeticIngot, null]]);
 recipes.remove(<EnderIO:itemBasicCapacitor:2>);
-recipes.addShaped(<EnderIO:itemBasicCapacitor:2>, [[null, vibrantIngot, null], [<EnderIO:itemBasicCapacitor:1>,<Mekanism:EnrichedAlloy>,<EnderIO:itemBasicCapacitor:1>], [null, vibrantIngot, null]]);
+recipes.addShaped(<EnderIO:itemBasicCapacitor:2>, [[null, vibrantIngot, null], [<EnderIO:itemBasicCapacitor:1>,<Mekanism:EnergyTablet:100>,<EnderIO:itemBasicCapacitor:1>], [null, vibrantIngot, null]]);
 recipes.remove(<EnderIO:blockSolarPanel:1>);
 recipes.addShaped(<EnderIO:blockSolarPanel:1>, [[vibrantIngot, fusedQuartz, vibrantIngot], [<EnderIO:itemMaterial:6> , <EnderIO:blockSolarPanel:0>, <EnderIO:itemMaterial:6> ], [enderIngot, <Mekanism:EnrichedAlloy>, enderIngot]]);
 recipes.remove(<EnderIO:blockSolarPanel:0>);
