@@ -169,7 +169,6 @@ recipes.addShaped(<ThermalFoundation:material:140>, [[<ore:nuggetEnderium>, <ore
 <ore:orePoorGold>.add(<Railcraft:tile.railcraft.ore:8>);
 <ore:orePoorCopper>.add(<Railcraft:tile.railcraft.ore:9>);
 <ore:orePoorTin>.add(<Railcraft:tile.railcraft.ore:10>);
-<ore:PoorZinc>.add(<Steamcraft:steamcraftOre:2>);
 <ore:orePoorLead>.add(<Railcraft:tile.railcraft.ore:11>);
 <ore:orePoorSilver>.add(<CustomItems:orePoorSilver>);
 <ore:orePoorNickel>.add(<CustomItems:orePoorNickel>);

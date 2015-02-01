@@ -35,10 +35,10 @@
   "29": [
     "golrithsaa:textures/roofed.png"
   ],
+  "-3": "HOUSE",
   "28": [
     "golrithsaa:textures/birch_hills.png"
   ],
-  "-3": "HOUSE",
   "-2": "FENCE",
   "30": "FOREST",
   "34": [
@@ -182,6 +182,7 @@
   "206": [
     "golrithsaa:textures/desert_mountains.png"
   ],
+  "194": "PLAINS",
   "218": "MOUNTAINS",
   "209": "MOUNTAINS",
   "235": "HILLS",

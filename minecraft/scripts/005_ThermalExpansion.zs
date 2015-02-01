@@ -156,9 +156,9 @@ recipes.addShaped(<openmodularturrets:baseTierFourBlock>, [[enderium, <ore:gearE
 recipes.remove(<openmodularturrets:laserTurret>);
 recipes.addShaped(<openmodularturrets:laserTurret>, [[<minechem:minechemOpticalMicroscopeLens:0>, <minechem:minechemOpticalMicroscopeLens:1>, <ResonantInductionCore:laserEmitter>], [<MFFS:focusMatrix>, <Mekanism:ControlCircuit:1>, <MFFS:focusMatrix>], [steel, <ore:gearSteel>, steel]]);
 recipes.remove(<openmodularturrets:grenadeTurret>);
-recipes.addShaped(<openmodularturrets:grenadeTurret>, [[null, <ore:gearInvar>, <Steamcraft:itemMortar>], [<ore:gearInvar>, <Mekanism:ControlCircuit:0>, invar], [invar, <ore:gearInvar>, invar]]);
+recipes.addShaped(<openmodularturrets:grenadeTurret>, [[null, <ore:gearInvar>, <OpenBlocks:cannon>], [<ore:gearInvar>, <Mekanism:ControlCircuit:0>, invar], [invar, <ore:gearInvar>, invar]]);
 recipes.remove(<openmodularturrets:rocketTurret>);
-recipes.addShaped(<openmodularturrets:rocketTurret>, [[null, <Steamcraft:rocketLauncher>, steel], [<Steamcraft:rocketLauncher>, <Mekanism:ControlCircuit:0>, steel], [steel, <ore:gearSteel>, steel]]);
+recipes.addShaped(<openmodularturrets:rocketTurret>, [[null, <flansmod:bazooka>, steel], [<flansmod:bazooka>, <Mekanism:ControlCircuit:0>, steel], [steel, <ore:gearSteel>, steel]]);
 recipes.remove(<openmodularturrets:railGunTurret>);
 recipes.addShaped(<openmodularturrets:railGunTurret>, [[<Railcraft:part.rail:1>, <Railcraft:part.rail:1>, <ResonantInductionCore:electromagnet:0>], [titanium, <Mekanism:ControlCircuit:2>, titanium], [titanium, <ore:gearSteel>, titanium]]);
 recipes.remove(<openmodularturrets:machineGunTurret>);

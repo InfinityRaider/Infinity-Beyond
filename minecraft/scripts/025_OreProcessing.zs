@@ -62,22 +62,20 @@ furnace.addRecipe(<TConstruct:materials:11>*2, denseAluminum*1);
 furnace.addRecipe(<TConstruct:materials:3>*2, denseCobalt*1);
 furnace.addRecipe(<TConstruct:materials:4>*2, denseArdite*1);
 furnace.addRecipe(<Mekanism:Ingot:1>*2, denseOsmium*1);
-furnace.addRecipe(<Steamcraft:steamcraftIngot:1>*2, denseZinc*1);
 furnace.addRecipe(<ResonantInductionCore:uranium>*2, denseUranium*1);
 
-mods.tconstruct.Smeltery.addMelting(denseIron*1, <liquid:iron.molten>*576, 500, denseIron);
-mods.tconstruct.Smeltery.addMelting(denseGold*1, <liquid:gold.molten>*576, 500, denseGold);
-mods.tconstruct.Smeltery.addMelting(denseCopper*1, <liquid:copper.molten>*576, 500, denseCopper);
-mods.tconstruct.Smeltery.addMelting(denseTin*1, <liquid:tin.molten>*576, 500, denseTin);
-mods.tconstruct.Smeltery.addMelting(denseSilver*1, <liquid:silver.molten>*576, 500, denseSilver);
-mods.tconstruct.Smeltery.addMelting(denseLead*1, <liquid:lead.molten>*576, 500, denseLead);
-mods.tconstruct.Smeltery.addMelting(denseNickel*1, <liquid:nickel.molten>*576, 500, denseNickel);
-mods.tconstruct.Smeltery.addMelting(densePlatinum*1, <liquid:platinum.molten>*576, 500, densePlatinum);
-mods.tconstruct.Smeltery.addMelting(denseAluminum*1, <liquid:aluminum.molten>*576, 500, denseAluminum);
-mods.tconstruct.Smeltery.addMelting(denseCobalt*1, <liquid:cobalt.molten>*576, 500, denseCobalt);
-mods.tconstruct.Smeltery.addMelting(denseArdite*1, <liquid:ardite.molten>*576, 500, denseArdite);
-mods.tconstruct.Smeltery.addMelting(denseOsmium*1, <liquid:osmium.molten>*576, 500, denseOsmium);
-#mods.tconstruct.Smeltery.addMelting(denseZinc*1, <liquid:copper.molten>*576, 500, denseZinc);
+mods.tconstruct.Smeltery.addMelting(denseIron*1, <liquid:iron.molten>*496, 500, denseIron);
+mods.tconstruct.Smeltery.addMelting(denseGold*1, <liquid:gold.molten>*496, 500, denseGold);
+mods.tconstruct.Smeltery.addMelting(denseCopper*1, <liquid:copper.molten>*496, 500, denseCopper);
+mods.tconstruct.Smeltery.addMelting(denseTin*1, <liquid:tin.molten>*496, 500, denseTin);
+mods.tconstruct.Smeltery.addMelting(denseSilver*1, <liquid:silver.molten>*496, 500, denseSilver);
+mods.tconstruct.Smeltery.addMelting(denseLead*1, <liquid:lead.molten>*496, 500, denseLead);
+mods.tconstruct.Smeltery.addMelting(denseNickel*1, <liquid:nickel.molten>*496, 500, denseNickel);
+mods.tconstruct.Smeltery.addMelting(densePlatinum*1, <liquid:platinum.molten>*496, 500, densePlatinum);
+mods.tconstruct.Smeltery.addMelting(denseAluminum*1, <liquid:aluminum.molten>*496, 500, denseAluminum);
+mods.tconstruct.Smeltery.addMelting(denseCobalt*1, <liquid:cobalt.molten>*496, 500, denseCobalt);
+mods.tconstruct.Smeltery.addMelting(denseArdite*1, <liquid:ardite.molten>*496, 500, denseArdite);
+mods.tconstruct.Smeltery.addMelting(denseOsmium*1, <liquid:osmium.molten>*496, 500, denseOsmium);
 
 mods.mekanism.Enrichment.addRecipe(denseIron*1, <Mekanism:Dust:0>*4);
 mods.mekanism.Enrichment.addRecipe(denseGold*1, <Mekanism:Dust:1>*4);
@@ -91,7 +89,6 @@ mods.mekanism.Enrichment.addRecipe(denseAluminum*1, <TConstruct:materials:40>*4)
 mods.mekanism.Enrichment.addRecipe(denseCobalt*1, <TConstruct:materials:39>*4);
 mods.mekanism.Enrichment.addRecipe(denseArdite*1, <TConstruct:materials:38>*4);
 mods.mekanism.Enrichment.addRecipe(denseOsmium*1, <Mekanism:Dust:2>*4);
-mods.mekanism.Enrichment.addRecipe(denseZinc*1, <aobd:dustZinc>*4);
 mods.mekanism.Enrichment.addRecipe(denseUranium*1, <ResonantInductionCore:yellowCake>*4);
 
 mods.mekanism.Purification.addRecipe(denseIron*1, <Mekanism:Clump:0>*6);
@@ -106,7 +103,6 @@ mods.mekanism.Purification.addRecipe(denseAluminum*1, <aobd:clumpAluminium>*6);
 mods.mekanism.Purification.addRecipe(denseCobalt*1, <aobd:clumpCobalt>*6);
 mods.mekanism.Purification.addRecipe(denseArdite*1, <aobd:clumpArdite>*6);
 mods.mekanism.Purification.addRecipe(denseOsmium*1, <Mekanism:Clump:2>*6);
-mods.mekanism.Purification.addRecipe(denseZinc*1, <aobd:clumpZinc>*6);
 mods.mekanism.Purification.addRecipe(denseUranium*1, <aobd:clumpUranium>*6);
 
 mods.mekanism.chemical.Injection.addRecipe(denseIron*1, <gas:hydrogenChloride>, <Mekanism:Shard:0>*8);
@@ -121,7 +117,6 @@ mods.mekanism.chemical.Injection.addRecipe(denseAluminum*1, <gas:hydrogenChlorid
 mods.mekanism.chemical.Injection.addRecipe(denseCobalt*1, <gas:hydrogenChloride>, <aobd:shardCobalt>*8);
 mods.mekanism.chemical.Injection.addRecipe(denseArdite*1, <gas:hydrogenChloride>, <aobd:shardArdite>*8);
 mods.mekanism.chemical.Injection.addRecipe(denseOsmium*1, <gas:hydrogenChloride>, <Mekanism:Shard:2>*8);
-mods.mekanism.chemical.Injection.addRecipe(denseZinc*1, <gas:hydrogenChloride>, <aobd:shardZinc>*8);
 mods.mekanism.chemical.Injection.addRecipe(denseUranium*1, <gas:hydrogenChloride>, <aobd:shardUranium>*8);
 
 mods.mekanism.Combiner.addRecipe(denseIron*1, <minecraft:iron_ore>*2);
@@ -136,7 +131,6 @@ mods.mekanism.Combiner.addRecipe(denseAluminum*1, <TConstruct:SearedBrick:5>*2);
 mods.mekanism.Combiner.addRecipe(denseCobalt*1, <TConstruct:SearedBrick:1>*2);
 mods.mekanism.Combiner.addRecipe(denseArdite*1, <TConstruct:SearedBrick:2>*2);
 mods.mekanism.Combiner.addRecipe(denseOsmium*1, <Mekanism:OreBlock:0>*2);
-mods.mekanism.Combiner.addRecipe(denseZinc*1, <Steamcraft:steamcraftOre:1>*2);
 mods.mekanism.Combiner.addRecipe(denseUranium*1, <minechem:tile.oreUranium>*2);
 
 mods.thermalexpansion.Furnace.addRecipe(2400, denseIron*1, <minecraft:iron_ingot>*2);
@@ -151,7 +145,6 @@ mods.thermalexpansion.Furnace.addRecipe(2400, denseAluminum*1, <TConstruct:mater
 mods.thermalexpansion.Furnace.addRecipe(2400, denseCobalt*1, <TConstruct:materials:3>*2);
 mods.thermalexpansion.Furnace.addRecipe(2400, denseArdite*1, <TConstruct:materials:4>*2);
 mods.thermalexpansion.Furnace.addRecipe(2400, denseOsmium*1, <Mekanism:Ingot:1>*2);
-mods.thermalexpansion.Furnace.addRecipe(2400, denseZinc*1, <Steamcraft:steamcraftIngot:1>*2);
 mods.thermalexpansion.Furnace.addRecipe(2400, denseUranium*1, <ResonantInductionCore:uranium>*2);
 
 mods.thermalexpansion.Pulverizer.addRecipe(6000, denseIron*1, <ThermalFoundation:material:0>*4, <ThermalFoundation:material:36>*1, 30);
@@ -166,7 +159,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(6000, denseAluminum, <TConstruct:mate
 mods.thermalexpansion.Pulverizer.addRecipe(6000, denseCobalt, <TConstruct:materials:39>*4, <TConstruct:materials:39>*1, 30);
 mods.thermalexpansion.Pulverizer.addRecipe(6000, denseArdite, <TConstruct:materials:38>*4, <TConstruct:materials:38>*1, 30);
 mods.thermalexpansion.Pulverizer.addRecipe(6000, denseOsmium, <Mekanism:Dust:2>*4, <Mekanism:Dust:2>*1, 30);
-mods.thermalexpansion.Pulverizer.addRecipe(6000, denseZinc, <aobd:dustZinc>*4, <aobd:dustZinc>*1, 30);
 mods.thermalexpansion.Pulverizer.addRecipe(6000, denseUranium, <ResonantInductionCore:yellowCake>*4, <ResonantInductionCore:yellowCake>*1, 30);
 
 mods.thaumcraft.Crucible.addRecipe("PURORE", denseIron*1, <Thaumcraft:ItemNugget:16>*2, "metallum 1, ordo 1");
@@ -181,7 +173,6 @@ mods.thaumcraft.Crucible.addRecipe("PURORE", denseAluminum*1, <aobd:clusterAlumi
 mods.thaumcraft.Crucible.addRecipe("PURORE", denseCobalt*1, <aobd:clusterCobalt>*2, "metallum 1, ordo 1");
 mods.thaumcraft.Crucible.addRecipe("PURORE", denseArdite*1, <aobd:clusterArdite>*2, "metallum 1, ordo 1");
 mods.thaumcraft.Crucible.addRecipe("PURORE", denseOsmium*1, <aobd:clusterOsmium>*2, "metallum 1, ordo 1");
-mods.thaumcraft.Crucible.addRecipe("PURORE", denseZinc*1, <aobd:clusterZinc>*2, "metallum 1, ordo 1");
 mods.thaumcraft.Crucible.addRecipe("PURORE", denseUranium*1, <aobd:clusterUranium>*2, "metallum 1, ordo 1");
 
 furnace.addRecipe(<minecraft:dye:4>*12, denseLapis*1);
@@ -241,8 +232,6 @@ furnace.addRecipe(<ThermalFoundation:material:101>*2, <CustomItems:orePoorPlatin
 furnace.addRecipe(<ThermalFoundation:material:100>*2, <CustomItems:orePoorNickel>);
 furnace.addRecipe(<CustomItems:nuggetOsmium>*2, <CustomItems:orePoorOsmium>);
 furnace.addRecipe(<TConstruct:materials:22>*2, <CustomItems:orePoorAluminum>);
-furnace.remove(<Steamcraft:steamcraftNugget:1>, <Steamcraft:steamcraftOre:2>);
-furnace.addRecipe(<Steamcraft:steamcraftNugget:1>*2, <Steamcraft:steamcraftOre:2>);
 furnace.addRecipe(<CustomItems:nuggetUranium>*2, <CustomItems:orePoorUranium>);
 
 mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:7>*1,<ThermalFoundation:material:8>*4);
@@ -250,7 +239,6 @@ mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:8>*1,<minecraft
 mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:9>*1,<ThermalFoundation:material:96>*4);
 mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:10>*1,<ThermalFoundation:material:97>*4);
 mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:11>*1,<ThermalFoundation:material:99>*4);
-mods.mekanism.Enrichment.addRecipe(<Steamcraft:steamcraftOre:2>*1,<Steamcraft:steamcraftNugget:1>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorSilver>*1,<ThermalFoundation:material:98>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorPlatinum>*1,<ThermalFoundation:material:101>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorNickel>*1,<ThermalFoundation:material:100>*4);
@@ -263,8 +251,6 @@ mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:orePoorPlatinum>*1,<Th
 mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:orePoorNickel>*1,<ThermalFoundation:material:100>*2);
 mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:orePoorOsmium>*1,<CustomItems:nuggetOsmium>*2);
 mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:orePoorAluminum>*1,<TConstruct:materials:22>*2);
-mods.thermalexpansion.Furnace.removeRecipe(<Steamcraft:steamcraftOre:2>*1);
-mods.thermalexpansion.Furnace.addRecipe(1600,<Steamcraft:steamcraftOre:2>*1,<Steamcraft:steamcraftNugget:1>*2);
 mods.thermalexpansion.Furnace.addRecipe(1600,<CustomItems:orePoorUranium>*1,<CustomItems:nuggetUranium>*2);
 
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<Railcraft:tile.railcraft.ore:7>*1,<ThermalFoundation:material:8>*4);
@@ -272,7 +258,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(4000,<Railcraft:tile.railcraft.ore:8>
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<Railcraft:tile.railcraft.ore:9>*1,<ThermalFoundation:material:96>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<Railcraft:tile.railcraft.ore:10>*1,<ThermalFoundation:material:97>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<Railcraft:tile.railcraft.ore:11>*1,<ThermalFoundation:material:99>*4);
-mods.thermalexpansion.Pulverizer.addRecipe(4000,<Steamcraft:steamcraftOre:2>*1,<Steamcraft:steamcraftNugget:1>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorSilver>*1,<ThermalFoundation:material:98>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorPlatinum>*1,<ThermalFoundation:material:101>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorNickel>*1,<ThermalFoundation:material:100>*4);
@@ -280,17 +265,18 @@ mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorOsmium>*1,<C
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorAluminum>*1,<TConstruct:materials:22>*4);
 mods.thermalexpansion.Pulverizer.addRecipe(4000,<CustomItems:orePoorUranium>*1,<CustomItems:nuggetUranium>*4);
 
-mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:7>*1,<liquid:iron.molten>*30, 200, <Railcraft:tile.railcraft.ore:7>);
-mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:8>*1,<liquid:gold.molten>*30, 200, <Railcraft:tile.railcraft.ore:8>);
-mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:9>*1,<liquid:copper.molten>*30, 200, <Railcraft:tile.railcraft.ore:9>);
-mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:10>*1,<liquid:tin.molten>*30, 200, <Railcraft:tile.railcraft.ore:10>);
-mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:11>*1,<liquid:lead.molten>*30, 200, <Railcraft:tile.railcraft.ore:11>);
-#mods.tconstruct.Smeltery.addMelting(<Steamcraft:steamcraftOre:2>*1,<liquid:zinc.molten>*30, 200, <Steamcraft:steamcraftOre:2>);
-mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorSilver>, <liquid:silver.molten>*30, 200, <CustomItems:orePoorSilver>);
-mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorPlatinum>, <liquid:platinum.molten>*30, 200, <CustomItems:orePoorPlatinum>);
-mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorNickel>, <liquid:nickel.molten>*30, 200, <CustomItems:orePoorNickel>);
-mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorOsmium>, <liquid:osmium.molten>*30, 200, <CustomItems:orePoorOsmium>);
-mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorAluminum>, <liquid:aluminum.molten>*30, 200, <CustomItems:orePoorAluminum>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:7>*1,<liquid:iron.molten>*48, 200, <Railcraft:tile.railcraft.ore:7>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:8>*1,<liquid:gold.molten>*48, 200, <Railcraft:tile.railcraft.ore:8>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:9>*1,<liquid:copper.molten>*48, 200, <Railcraft:tile.railcraft.ore:9>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:10>*1,<liquid:tin.molten>*48, 200, <Railcraft:tile.railcraft.ore:10>);
+mods.tconstruct.Smeltery.addMelting(<Railcraft:tile.railcraft.ore:11>*1,<liquid:lead.molten>*48, 200, <Railcraft:tile.railcraft.ore:11>);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorSilver>, <liquid:silver.molten>*48, 200, <CustomItems:orePoorSilver>);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorPlatinum>, <liquid:platinum.molten>*48, 200, <CustomItems:orePoorPlatinum>);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorNickel>, <liquid:nickel.molten>*48, 200, <CustomItems:orePoorNickel>);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorOsmium>, <liquid:osmium.molten>*48, 200, <CustomItems:orePoorOsmium>);
+mods.tconstruct.Casting.addTableRecipe(<CustomItems:nuggetOsmium>, <liquid:osmium.molten>*16, <TConstruct:metalPattern:27>, false, 20);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:nuggetOsmium>, <liquid:osmium.molten>*16, 100, <Mekanism:BasicBlock:0>);
+mods.tconstruct.Smeltery.addMelting(<CustomItems:orePoorAluminum>, <liquid:aluminum.molten>*48, 200, <CustomItems:orePoorAluminum>);
 
 
 #iron processing
@@ -452,10 +438,6 @@ mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:4>*1, <Mekanism:DirtyDust:4>*1);
 mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:5>*1, <Mekanism:DirtyDust:5>*1);
 mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:6>*1, <Mekanism:DirtyDust:6>*1);
 mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:7>*1, <Mekanism:DirtyDust:7>*1);
-
-
-#zinc processing
-mods.thermalexpansion.Smelter.addRecipe(8000, <aobd:dustZinc>, <ThermalFoundation:material:32>*3, <Steamcraft:steamcraftIngot:2>*4);
 
 
 

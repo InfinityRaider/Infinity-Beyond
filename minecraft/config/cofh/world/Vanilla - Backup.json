@@ -445,6 +445,78 @@
             -100
         ]
     },
+    "zinc": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 1,
+                "weight": 50
+            },
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 2,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseZinc",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 30,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
+    "uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minechem:tile.oreUranium",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "CustomItems:orePoorUranium",
+                "metadata": 7,
+                "weight": 40
+            },
+            {
+                "name": "CustomItems:oreDenseUranium",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 1,
+        "minHeight": 20,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            -100
+        ]
+    },
     "coal": {
         "template": "uniform",
         "block": [
@@ -1288,6 +1360,40 @@
         ],
         "material": "minecraft:stone",
         "clusterSize": 5,
+        "numClusters": 14,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "dd_zinc": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 1,
+                "weight": 60
+            },
+            {
+                "name": "Steamcraft:steamcraftOre",
+                "metadata": 2,
+                "weight": 20
+            },
+            {
+                "name": "CustomItems:oreDenseZinc",
+                "metadata": 0,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
         "numClusters": 14,
         "minHeight": 0,
         "maxHeight": 255,

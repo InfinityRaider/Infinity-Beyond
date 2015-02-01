@@ -9,7 +9,7 @@ val bushingIron = <AncientWarfare:component:4>;
 val bushingSteel = <AncientWarfare:component:5>;
 
 val drill_old = <BiblioCraft:item.HandDrill>.anyDamage();
-val drill_new = <Steamcraft:steamDrill>.anyDamage();
+/*val drill_new = <Steamcraft:steamDrill>.anyDamage();*/
 
 val gearWood = <ore:gearWood>;
 val gearIron = <ore:gearIron>;
@@ -36,6 +36,6 @@ recipes.addShapeless(shaftSteel, [rodSteel, rodSteel]);
 recipes.remove(bushingWood);
 recipes.addShapeless(bushingWood, [panWood, drill_old.reuse()]);
 recipes.remove(bushingIron);
-recipes.addShapeless(bushingIron, [panIron, drill_new.reuse()]);
+recipes.addShapeless(bushingIron, [panIron, drill_old.reuse()]);
 recipes.remove(bushingSteel);
-recipes.addShapeless(bushingSteel, [panSteel, drill_new.reuse()]);
+recipes.addShapeless(bushingSteel, [panSteel, drill_old.reuse()]);
