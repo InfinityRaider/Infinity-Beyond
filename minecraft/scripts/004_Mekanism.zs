@@ -49,6 +49,7 @@ mods.mekanism.Crusher.addRecipe(<CustomItems:clumpDesh>, <CustomItems:dustDeshDi
 mods.mekanism.Crusher.addRecipe(<minecraft:sapling:32767>,<Mekanism:BioFuel> * 2);
 mods.mekanism.Crusher.addRecipe(<Natura:florasapling:32767>,<Mekanism:BioFuel> * 2);
 mods.mekanism.Crusher.addRecipe(<Natura:Rare Sapling:32767>,<Mekanism:BioFuel> * 2);
+mods.mekanism.Crusher.addRecipe(<Natura:Rare Sapling:32767>,<Mekanism:BioFuel> * 2);
 mods.mekanism.Crusher.addRecipe(<BiomesOPlenty:saplings:32767>,<Mekanism:BioFuel> * 2);
 mods.mekanism.Crusher.addRecipe(<BiomesOPlenty:colorizedSaplings:32767>,<Mekanism:BioFuel> * 2);
 mods.mekanism.Crusher.addRecipe(<Forestry:sapling:0>,<Mekanism:BioFuel> * 2);
@@ -406,11 +407,11 @@ mods.mekanism.Enrichment.addRecipe(denseQuantum*1, <qCraft:dust>*8);
 mods.mekanism.Enrichment.addRecipe(denseSilicon*1, <GalacticraftCore:item.basicItem:2>*4);
 mods.mekanism.Enrichment.addRecipe(denseCertusQuartz*1, <appliedenergistics2:item.ItemMultiMaterial:2>*4);
 
-mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:7>, <ThermalFoundation:material:8>*4);
-mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:8>, <minecraft:gold_nugget>*4);
-mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:9>, <ThermalFoundation:material:96>*4);
-mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:10>, <ThermalFoundation:material:97>*4);
-mods.mekanism.Enrichment.addRecipe(<Railcraft:tile.railcraft.ore:11>, <ThermalFoundation:material:99>*4);
+mods.mekanism.Enrichment.addRecipe(<Railcraft:ore:7>, <ThermalFoundation:material:8>*4);
+mods.mekanism.Enrichment.addRecipe(<Railcraft:ore:8>, <minecraft:gold_nugget>*4);
+mods.mekanism.Enrichment.addRecipe(<Railcraft:ore:9>, <ThermalFoundation:material:96>*4);
+mods.mekanism.Enrichment.addRecipe(<Railcraft:ore:10>, <ThermalFoundation:material:97>*4);
+mods.mekanism.Enrichment.addRecipe(<Railcraft:ore:11>, <ThermalFoundation:material:99>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorAluminum>, <TConstruct:materials:22>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorOsmium>, <CustomItems:nuggetOsmium>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:orePoorPlatinum>, <ThermalFoundation:material:101>*4);

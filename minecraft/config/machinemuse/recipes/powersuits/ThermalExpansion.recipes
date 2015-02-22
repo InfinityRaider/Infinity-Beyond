@@ -1,0 +1,249 @@
+[
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ],
+			[ { "oredictName" : "gearTin" }, { "oredictName" : "ingotIron" } ],
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ]
+		],
+		"result" : {
+			"oredictName" : "componentPlatingBasic"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "gemDiamond" }, { "oredictName" : "gemDiamond" } ],
+			[ { "oredictName" : "gearInvar" }, { "oredictName" : "gemDiamond" } ],
+			[ { "oredictName" : "gemDiamond" }, { "oredictName" : "gemDiamond" } ]
+		],
+		"result" : {
+			"oredictName" : "componentPlatingAdvanced"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotElectrum" }, { "oredictName" : "dustGlowstone" }, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "dustRedstone" }, { "oredictName" : "componentWiring" }, { "oredictName" : "dustGlowstone" } ],
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "dustRedstone" }, { "oredictName" : "ingotElectrum" } ]
+		],
+		"result" : {
+			"oredictName" : "componentControlCircuit"
+		},
+		"mirror" : true
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentPlatingBasic" } ]
+		],
+		"result" : {
+			"oredictName" : "ingotIron",
+			"quantity" : 5
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentPlatingAdvanced" } ]
+		],
+		"result" : {
+			"oredictName" : "gemDiamond",
+			"quantity" : 5
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "dyeRed" }, { "oredictName" : "dyeGreen" }, { "oredictName" : "dyeBlue" } ],
+			[ null, { "oredictName" : "blockGlass" }, null ],
+			[ { "oredictName" : "componentWiring" }, { "unlocalizedName" : "item.thermalexpansion.material.powerCoilGold" }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentLaserEmitter"
+		}
+	},
+	{
+		"ingredients" : [
+			[ null, { "oredictName" : "gemEmerald" }, null ],
+			[ { "oredictName" : "ingotElectrum" }, { "unlocalizedName" : "tile.thermalexpansion.frame.machineBasic.name" }, { "oredictName" : "ingotElectrum" } ],
+			[ null, { "unlocalizedName" : "item.thermalexpansion.material.powerCoilSilver" }, null ]
+		],
+		"result" : {
+			"unlocalizedName" : "tile.tinkerTable"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ],
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"unlocalizedName" : "item.powerArmorHelmet"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotIron" }, null, { "oredictName" : "ingotIron" } ],
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "ingotIron" }, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ]
+		],
+		"result" : {
+			"unlocalizedName" : "item.powerArmorChestplate"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" }, { "oredictName" : "ingotIron" } ],
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "ingotIron" }, null, { "oredictName" : "ingotIron" } ]
+		],
+		"result" : {
+			"unlocalizedName" : "item.powerArmorLeggings"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "ingotIron" }, null, { "oredictName" : "ingotIron" } ]
+		],
+		"result" : {
+			"unlocalizedName" : "item.powerArmorBoots"
+		}
+	},
+	{
+		"ingredients" : [
+			[ null, { "oredictName" : "ingotIron" }, null ],
+			[ { "oredictName" : "ingotIron" }, { "oredictName" : "ingotElectrum" }, { "oredictName" : "ingotIron" } ],
+			[ null, { "oredictName" : "componentWiring" }, null ]
+		],
+		"result" : {
+			"unlocalizedName" : "item.powerFist"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" } ],
+			[ { "oredictName" : "ingotSilver" }, { "oredictName" : "ingotSilver" }, { "oredictName" : "ingotSilver" } ],
+			[ { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" }, { "oredictName" : "ingotCopper" } ]
+		],
+		"result" : {
+			"oredictName" : "componentWiring",
+			"quantity" : 8
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "blockCloth" }, { "oredictName" : "blockCloth" }, { "oredictName" : "blockCloth" } ],
+			[ { "unlocalizedName" : "item.string" }, null, { "unlocalizedName" : "item.string" } ],
+			[ null, { "unlocalizedName" : "item.thermalexpansion.material.pneumaticServo" }, null ]
+		],
+		"result" : {
+			"oredictName" : "componentParachute"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotSilver" }, { "oredictName" : "paperEmpty" }, { "oredictName" : "ingotGold" } ],
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentLVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, { "unlocalizedName" : "tile.thermalexpansion.frame.cellBasic.name" }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentMVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, { "unlocalizedName" : "tile.thermalexpansion.frame.cellReinforcedFull.name" }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentHVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "ingotIron" }, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "ingotIron" }, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "ingotIron" }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentSolenoid"
+		}
+	},
+	{
+		"ingredients" : [
+			[ null, { "oredictName" : "blockGlassHardened" }, { "oredictName" : "blockGlassHardened" } ],
+			[ { "oredictName" : "blockGlassHardened" }, { "oredictName" : "blockGlassHardened" }, { "oredictName" : "componentSolenoid" } ],
+			[ { "oredictName" : "blockGlassHardened" }, null, null ]
+		],
+		"result" : {
+			"oredictName" : "componentGliderWing"
+		}
+	},
+	{
+		"ingredients" : [
+			[  null, { "oredictName" : "componentSolenoid" }, null ],
+			[  { "oredictName" : "componentWiring" }, { "unlocalizedName" : "item.thermalexpansion.material.pneumaticServo" }, { "oredictName" : "componentWiring" } ],
+			[  null, { "oredictName" : "componentSolenoid" }, null ]
+		],
+		"result" : {
+			"oredictName" : "componentServo"
+		}
+	},
+	{
+		"ingredients" : [
+			[  null, { "oredictName" : "componentWiring" }, null ],
+			[  { "oredictName" : "componentSolenoid" }, { "unlocalizedName" : "tile.thermalexpansion.frame.tesseractFull.name" }, { "oredictName" : "componentSolenoid" } ],
+			[  null, { "oredictName" : "componentWiring" }, null ]
+		],
+		"result" : {
+			"oredictName" : "componentFieldEmitter"
+		},
+		"mirror" : true
+	},
+	{
+		"ingredients" : [
+			[  null, { "oredictName" : "componentFieldEmitter" }, { "oredictName" : "ingotInvar" } ],
+			[  { "oredictName" : "ingotInvar" }, { "oredictName" : "dustGlowstone" }, null],
+			[  { "oredictName" : "componentWiring" }, { "oredictName" : "componentFieldEmitter" }, { "oredictName" : "ingotInvar" } ]
+		],
+		"result" : {
+			"oredictName" : "componentIonThruster"
+		}
+
+	},
+	{
+        "ingredients" : [
+            [ { "oredictName" : "dustCoal" }, { "oredictName" : "blockClothRock" }, { "oredictName" : "dustCoal" } ],
+            [ { "unlocalizedName" : "item.string" }, { "oredictName" : "gemDiamond" }, { "unlocalizedName" : "item.string" } ],
+            [ null, { "oredictName" : "dustPyrotheum" }, null ]
+        ],
+        "result" : {
+            "oredictName" : "componentCarbonMyofiber",
+            "quantity" : "2"
+        }
+	},
+	{
+        "ingredients" : [
+            [ { "oredictName" : "dustCoal" }, { "oredictName" : "blockClothRock" }, { "oredictName" : "dustCoal" } ],
+            [ { "oredictName" : "slimeball" }, { "oredictName" : "gemDiamond" }, { "oredictName" : "slimeball" } ],
+            [ null, { "oredictName" : "dustPyrotheum" }, null ]
+        ],
+        "result" : {
+            "oredictName" : "componentMyofiberGel",
+            "quantity" : "3"
+        }
+	},
+	{
+        "ingredients" : [
+            [ { "oredictName" : "componentMyofiberGel" }, { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "componentMyofiberGel" } ],
+            [ { "oredictName" : "componentSolenoid" }, { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "dustPyrotheum" } ],
+            [ { "oredictName" : "componentMyofiberGel" }, { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "componentMyofiberGel" } ]
+        ],
+        "result" : {
+            "oredictName" : "componentArtificialMuscle"
+        }
+	}
+]

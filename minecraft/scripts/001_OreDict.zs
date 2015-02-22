@@ -165,11 +165,11 @@ recipes.addShaped(<ThermalFoundation:material:140>, [[<ore:nuggetEnderium>, <ore
 <ore:gearSteel>.add(<Railcraft:part.gear:2>);
 
 #poor ores
-<ore:orePoorIron>.add(<Railcraft:tile.railcraft.ore:7>);
-<ore:orePoorGold>.add(<Railcraft:tile.railcraft.ore:8>);
-<ore:orePoorCopper>.add(<Railcraft:tile.railcraft.ore:9>);
-<ore:orePoorTin>.add(<Railcraft:tile.railcraft.ore:10>);
-<ore:orePoorLead>.add(<Railcraft:tile.railcraft.ore:11>);
+<ore:orePoorIron>.add(<Railcraft:ore:7>);
+<ore:orePoorGold>.add(<Railcraft:ore:8>);
+<ore:orePoorCopper>.add(<Railcraft:ore:9>);
+<ore:orePoorTin>.add(<Railcraft:ore:10>);
+<ore:orePoorLead>.add(<Railcraft:ore:11>);
 <ore:orePoorSilver>.add(<CustomItems:orePoorSilver>);
 <ore:orePoorNickel>.add(<CustomItems:orePoorNickel>);
 <ore:orePoorPlatinum>.add(<CustomItems:orePoorPlatinum>);
@@ -199,7 +199,6 @@ recipes.addShaped(<ThermalFoundation:material:140>, [[<ore:nuggetEnderium>, <ore
 #<ore:oreDenseAmber>.add(<CustomItems:oreDenseAmber:0>);
 #<ore:oreDenseCinnabar>.add(<CustomItems:oreDenseCinnabar:0>);
 <ore:oreDenseOsmium>.add(<CustomItems:oreDenseOsmium>);
-<ore:oreDenseZinc>.add(<CustomItems:oreDenseZinc:0>);
 <ore:oreDenseApatite>.add(<CustomItems:oreDenseApatite:0>);
 <ore:oreDenseQuantum>.add(<CustomItems:oreDenseQuantum:0>);
 #<ore:oreDenseSalt>.add(<CustomItems:oreDenseSalt:0>);

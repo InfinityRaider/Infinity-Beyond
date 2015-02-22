@@ -51,5 +51,5 @@ recipes.addShapeless(copperchestcart, [chestcart, woodtocopper]);
 recipes.addShapeless(obsidianchestcart, [diamondchestcart, diamondtoobsidian]);
 
 #rock crusher
-mods.railcraft.RockCrusher.removeRecipe(<Railcraft:tile.railcraft.machine.alpha:7>);
-mods.railcraft.RockCrusher.removeRecipe(<Railcraft:tile.railcraft.machine.alpha:12>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);

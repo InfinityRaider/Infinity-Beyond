@@ -1,0 +1,333 @@
+{
+    "notLearnable": [
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreAmber",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreApatite",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreCertusQuartz",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreCinnabar",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreCoal",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreCopper",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreDiamond",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreEmerald",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreFirestone",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreGold",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedAir",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedEarth",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedEntropy",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedFire",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedOrder",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreInfusedWater",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreIron",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreLapis",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreLead",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreMalachite",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreMithril",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreNickel",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePeridot",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePlatinum",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePoorCopper",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePoorGold",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePoorIron",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePoorLead",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "orePoorTin",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreQuartz",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreRedstone",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreRuby",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreSaltpeter",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreSapphire",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreSilver",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreSulfur",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreTanzanite",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreTin",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreTopaz",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreYellorite",
+                "stackSize": 1
+            }
+        },
+        {
+            "wrappedStack_type": "orestack",
+            "wrappedStack_stackSize": 1,
+            "wrappedStack_data": {
+                "oreName": "oreYellorium",
+                "stackSize": 1
+            }
+        }
+    ],
+    "notRecoverable": []
+}

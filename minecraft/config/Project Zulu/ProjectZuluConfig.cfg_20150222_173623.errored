@@ -1,0 +1,14 @@
+# Configuration file
+
+"mob controls" {
+    B:"Display PZBoss HealthBar"=true
+}
+
+
+Spawn Ambient Bugs on Block Break"=false
+    I:"Spawn Rate of Ambient Bugs on Block Break"=5
+    I:"Spawn Rate of Wood Sticks on Block Break"=5
+    B:"Spawn Wood Sticks on Block Break"=true
+}
+
+
