@@ -1,0 +1,19 @@
+#Put a list of blocks to define a harvestlevel for, in the following fashion: <blockName>:<blockMeta>,<tool>,<harvestlevel>
+#The blockName should be the name NEI gives you, the stacksize is the maximum stacksize
+#Harvestlevel means: 0 = wood, 1 = stone, 2 = iron, 3 = diamond (you can go higher, for instance if you have tconstruct installed)
+#Only define one entry per line, meta is optional. Example: minecraft:stone,pickaxe,2
+minecraft:iron_ore:0,pickaxe,1
+minecraft:gold_ore:0,pickaxe,2
+minecraft:emerald_ore:0,pickaxe,2
+minecraft:diamond_ore:0,pickaxe,3
+minecraft:obsidian:0,pickaxe,5
+ThermalFoundation:Ore:0,pickaxe,0
+ThermalFoundation:Ore:1,pickaxe,0
+ThermalFoundation:Ore:2,pickaxe,1
+ThermalFoundation:Ore:3,pickaxe,2
+ThermalFoundation:Ore:4,pickaxe,2
+ThermalFoundation:Ore:5,pickaxe,3
+TConstruct:SearedBrick:5,pickaxe,1
+Mekanism:OreBlock:0,pickaxe,2
+BiomesOPlenty:gemOre:0,pickaxe,3
+minechem:tile.oreUranium:0,pickaxe,4

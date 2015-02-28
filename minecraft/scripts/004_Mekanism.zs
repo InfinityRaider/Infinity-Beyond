@@ -313,10 +313,10 @@ mods.mekanism.Enrichment.addRecipe(<Mekanism:DirtyDust:7>, <ThermalFoundation:ma
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyNickel>*1, <ThermalFoundation:material:36> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyPlatinum>*1, <ThermalFoundation:material:37> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyMithril>*1, <ThermalFoundation:material:38> * 1);
-mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyYellorium>*1, <ResonantInductionCore:yellowCake> * 1);
+mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyYellorium>*1, <BigReactors:BRIngot:4> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyAluminium>, <TConstruct:materials:40> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyRutile>, <aobd:dustRutile> * 1);
-mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyUranium>, <ResonantInductionCore:yellowCake> * 1);
+mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyUranium>, <BigReactors:BRIngot:4> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyCobalt>, <TConstruct:materials:39> * 1);
 mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyArdite>, <TConstruct:materials:38> * 1);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:dustTitaniumDirty>, <CustomItems:dustTitanium> * 1);
@@ -335,7 +335,7 @@ mods.mekanism.Enrichment.addRecipe(<TConstruct:SearedBrick:5>, <TConstruct:mater
 mods.mekanism.Enrichment.addRecipe(<TConstruct:SearedBrick:1>, <TConstruct:materials:39>*2);
 mods.mekanism.Enrichment.addRecipe(<TConstruct:SearedBrick:2>, <TConstruct:materials:38>*2);
 mods.mekanism.Enrichment.addRecipe(<Mekanism:OreBlock:0>, <Mekanism:Dust:2>*2);
-mods.mekanism.Enrichment.addRecipe(<minechem:tile.oreUranium>, <ResonantInductionCore:yellowCake>*2);
+mods.mekanism.Enrichment.addRecipe(<minechem:tile.oreUranium>, <BigReactors:BRIngot:4>*2);
 mods.mekanism.Enrichment.addRecipe(<TConstruct:GravelOre:0>, <ThermalFoundation:material:0>*2);
 mods.mekanism.Enrichment.addRecipe(<TConstruct:GravelOre:1>, <ThermalFoundation:material:1>*2);
 mods.mekanism.Enrichment.addRecipe(<TConstruct:GravelOre:2>, <ThermalFoundation:material:32>*2);
@@ -364,7 +364,7 @@ mods.mekanism.Enrichment.addRecipe(<erebus:oreIron>, <ThermalFoundation:material
 mods.mekanism.Enrichment.addRecipe(<erebus:oreGold>, <ThermalFoundation:material:1>*2);
 mods.mekanism.Enrichment.addRecipe(<MorePlanet:diona_block:9>, <TConstruct:materials:40>*2);
 mods.mekanism.Enrichment.addRecipe(<MorePlanet:fronos_block:4>, <TConstruct:materials:40>*2);
-mods.mekanism.Enrichment.addRecipe(<MorePlanet:kapteyn-b_block:6>, <ResonantInductionCore:yellowCake>*2);
+mods.mekanism.Enrichment.addRecipe(<MorePlanet:kapteyn-b_block:6>, <BigReactors:BRIngot:4>*2);
 mods.mekanism.Enrichment.addRecipe(<GalacticraftMars:tile.mars:2>, <CustomItems:dustDesh>*2);
 mods.mekanism.Enrichment.addRecipe(<GalacticraftMars:tile.asteroidsBlock:4>, <CustomItems:dustTitanium>*2);
 
@@ -378,7 +378,7 @@ mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseNickel>, <ThermalFoundat
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDensePlatinum>, <ThermalFoundation:material:37>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseAluminum>, <TConstruct:materials:40>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseOsmium>, <Mekanism:Dust:2>*4);
-mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseUranium>, <ResonantInductionCore:yellowCake>*4);
+mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseUranium>, <BigReactors:BRIngot:4>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseArdite>, <TConstruct:materials:38>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseCobalt>, <TConstruct:materials:39>*4);
 mods.mekanism.Enrichment.addRecipe(<CustomItems:oreDenseQuartz>, <minecraft:quartz>*12);

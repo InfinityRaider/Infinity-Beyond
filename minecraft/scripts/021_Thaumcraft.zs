@@ -37,15 +37,17 @@ mods.thaumcraft.Research.moveResearch("PUREORE", "ALCHEMY", -3, 2);
 mods.thaumcraft.Research.removeTab("AOBD");
 
 #blood magic
+
 recipes.remove(bloodaltar);
-mods.thaumcraft.Research.addResearch("BLOODMAGIC", "FORBIDDEN", "victus 2, tenebrae 2, corpus 4", -3, -2, 6, bloodaltar);
-game.setLocalization("en_US", "tc.research_name.BLOODMAGIC", "Blood Magic");
-game.setLocalization("en_US", "tc.research_text.BLOODMAGIC", "[BM] Alchemical Wizardry");
-mods.thaumcraft.Infusion.addRecipe("BLOODMAGIC", <Thaumcraft:blockStoneDevice:2>, [<necromancy:BucketBlood>, <necromancy:BucketBlood>, <minecraft:skull:1>], "victus 50, tenebrae 25, corpus 50", bloodaltar, 15); 
-mods.thaumcraft.Research.addPage("BLOODMAGIC", "derp.research_page.BLOODMAGIC");
-game.setLocalization("derp.research_page.BLOODMAGIC", "Infusing enough life force into a runic matrix will create a blood altar. The blood altar is the start of a path into the darker sides of the arcane: Blood Magic");
-mods.thaumcraft.Research.addInfusionPage("BLOODMAGIC", bloodaltar);
-mods.thaumcraft.Research.addPrereq("BLOODMAGIC", "INFUSION", false);
+mods.thaumcraft.Research.addResearch("BLOODYWIZARDRY", "FORBIDDEN", "victus 2, tenebrae 2, corpus 4", -3, 0, 6, bloodaltar);
+game.setLocalization("en_US", "tc.research_name.BLOODYWIZARDRY", "Blood Magic");
+game.setLocalization("en_US", "tc.research_text.BLOODYWIZARDRY", "[BM] Alchemical Wizardry");
+mods.thaumcraft.Infusion.addRecipe("BLOODYWIZARDRY", <Thaumcraft:blockStoneDevice:2>, [<necromancy:BucketBlood>, <necromancy:BucketBlood>, <minecraft:skull:1>], "victus 50, tenebrae 25, corpus 50", bloodaltar, 15); 
+mods.thaumcraft.Research.addPage("BLOODYWIZARDRY", "derp.research_page.BLOODYWIZARDRY");
+game.setLocalization("derp.research_page.BLOODYWIZARDRY", "Infusing enough life force into a runic matrix will create a blood altar. The blood altar is the start of a path into the darker sides of the arcane: Blood Magic");
+mods.thaumcraft.Research.addInfusionPage("BLOODYWIZARDRY", bloodaltar);
+mods.thaumcraft.Research.addPrereq("BLOODYWIZARDRY", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("BLOODYWIZARDRY", "BLOODMAGIC", false);
 
 #ars magica
 recipes.remove(amaltar);
@@ -127,7 +129,8 @@ recipes.remove(<SSTOW:sstow_corrupted_essence>);
 recipes.remove(<SSTOW:sstow_soulium_ingot>);
 recipes.remove(<SSTOW:sstow_soul_pickaxe>);
 val soulShard = <SSTOW:sstow_soul_shard>.withTag({Tier: 0 as byte, KillCount: 0 as short})*1;
-mods.thaumcraft.Research.addResearch("SOULSHARDS", "FORBIDDEN", "mortuus 50, perditio 50, spiritus 50, vinculum 50", 1, -2, 5, <SSTOW:sstow_soul_shard>);
+
+mods.thaumcraft.Research.addResearch("SOULSHARDS", "FORBIDDEN", "mortuus 50, perditio 50, spiritus 50, vinculum 50", -6, -11, 5, <SSTOW:sstow_soul_shard>);
 mods.thaumcraft.Research.addPrereq("SOULSHARDS", "WRATHCAGE", false);
 mods.thaumcraft.Arcane.addShaped("SOULSHARDS", <SSTOW:sstow_soul_cage>, "aqua 100, terra 100, aer 100, perditio 100, ordo 100, ignis 1000", [[<Thaumcraft:ItemResource:16>,<Thaumcraft:ItemResource:16>,<Thaumcraft:ItemResource:16>],[<Thaumcraft:ItemResource:16>,<ForbiddenMagic:WrathCage>,<Thaumcraft:ItemResource:16>],[<Thaumcraft:ItemResource:16>,<Thaumcraft:ItemResource:16>,<Thaumcraft:ItemResource:16>]]);
 mods.thaumcraft.Infusion.addRecipe("SOULSHARDS", <AWWayofTime:bloodMagicBaseItems:29>, [<BiomesOPlenty:misc:10>, <BiomesOPlenty:misc:10>, <BiomesOPlenty:misc:10>, <BiomesOPlenty:misc:10>], "vitreus 64, vinculum 64, spiritus 64", soulShard, 30);
@@ -138,7 +141,7 @@ game.setLocalization("en_US", "derp.research_page.SOULSHARDS", "A soul shard all
 mods.thaumcraft.Research.addInfusionPage("SOULSHARDS", soulShard);
 mods.thaumcraft.Research.addArcanePage("SOULSHARDS", <SSTOW:sstow_soul_cage>);
 
-mods.thaumcraft.Research.addResearch("SOULSWORD", "FORBIDDEN", "telum 50, meto 50, spiritus 50", 3, -4, 5, <SSTOW:sstow_soul_sword>);
+mods.thaumcraft.Research.addResearch("SOULSWORD", "FORBIDDEN", "telum 50, meto 50, spiritus 50", -5, -11, 5, <SSTOW:sstow_soul_sword>);
 mods.thaumcraft.Research.addPrereq("SOULSWORD", "SOULSHARDS", false);
 mods.thaumcraft.Infusion.addRecipe("SOULSWORD", <AWWayofTime:energySword>, [<Thaumcraft:ItemResource:16>, soulShard, <Thaumcraft:ItemResource:16>, soulShard], "telum 100, meto 100, spiritus 50", <SSTOW:sstow_soul_sword>, 30);
 game.setLocalization("en_US", "tc.research_name.SOULSWORD", "Soul Sword");

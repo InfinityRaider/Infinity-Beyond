@@ -154,12 +154,12 @@ recipes.remove(<openmodularturrets:baseTierFourBlock>);
 recipes.addShaped(<openmodularturrets:baseTierFourBlock>, [[enderium, <ore:gearEnderium>, enderium], [<ore:gearEnderium>, <ThermalExpansion:Frame:3>, <ore:gearEnderium>], [enderium, <ore:gearEnderium>, enderium]]);
 
 recipes.remove(<openmodularturrets:laserTurret>);
-recipes.addShaped(<openmodularturrets:laserTurret>, [[<minechem:minechemOpticalMicroscopeLens:0>, <minechem:minechemOpticalMicroscopeLens:1>, <ResonantInductionCore:laserEmitter>], [<MFFS:focusMatrix>, <Mekanism:ControlCircuit:1>, <MFFS:focusMatrix>], [steel, <ore:gearSteel>, steel]]);
+recipes.addShaped(<openmodularturrets:laserTurret>, [[<minechem:minechemOpticalMicroscopeLens:0>, <minechem:minechemOpticalMicroscopeLens:1>, <BuildCraft|Silicon:laserBlock>], [<MFFS:focusMatrix>, <Mekanism:ControlCircuit:1>, <MFFS:focusMatrix>], [steel, <ore:gearSteel>, steel]]);
 recipes.remove(<openmodularturrets:grenadeTurret>);
 recipes.addShaped(<openmodularturrets:grenadeTurret>, [[null, <ore:gearInvar>, <OpenBlocks:cannon>], [<ore:gearInvar>, <Mekanism:ControlCircuit:0>, invar], [invar, <ore:gearInvar>, invar]]);
 recipes.remove(<openmodularturrets:rocketTurret>);
 recipes.addShaped(<openmodularturrets:rocketTurret>, [[null, <flansmod:bazooka>, steel], [<flansmod:bazooka>, <Mekanism:ControlCircuit:0>, steel], [steel, <ore:gearSteel>, steel]]);
 recipes.remove(<openmodularturrets:railGunTurret>);
-recipes.addShaped(<openmodularturrets:railGunTurret>, [[<Railcraft:part.rail:1>, <Railcraft:part.rail:1>, <ResonantInductionCore:electromagnet:0>], [titanium, <Mekanism:ControlCircuit:2>, titanium], [titanium, <ore:gearSteel>, titanium]]);
+recipes.addShaped(<openmodularturrets:railGunTurret>, [[<Railcraft:part.rail:1>, <Railcraft:part.rail:1>, <EnderIO:itemMagnet:16>], [titanium, <Mekanism:ControlCircuit:2>, titanium], [titanium, <ore:gearSteel>, titanium]]);
 recipes.remove(<openmodularturrets:machineGunTurret>);
 recipes.addShaped(<openmodularturrets:machineGunTurret>, [[null, <flansmod:minigun>, <ore:gearInvar>], [invar, <Mekanism:ControlCircuit:0>, invar], [invar, <ore:gearInvar>, invar]]);

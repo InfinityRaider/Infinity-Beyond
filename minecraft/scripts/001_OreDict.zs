@@ -96,7 +96,6 @@
 <ore:plateMeteoricIron>.add(<CustomItems:plateMeteorIron>);
 <ore:plateTitanium>.add(<CustomItems:plateTitanium>);
 <ore:oreUranium>.add(<MorePlanet:kapteyn-b_block:6>);
-<ore:oreUranium>.add(<ResonantInductionCore:uraniumOre>);
 
 #gears
 recipes.remove(<BuildCraft|Core:woodenGearItem>);
@@ -126,15 +125,12 @@ recipes.remove(<ThermalFoundation:material:137>);
 recipes.remove(<ThermalFoundation:material:138>);
 recipes.remove(<ThermalFoundation:material:139>);
 recipes.remove(<ThermalFoundation:material:140>);
-recipes.remove(<ResonantInductionCore:gear:0>);
-recipes.remove(<ResonantInductionCore:gear:1>);
-recipes.remove(<ResonantInductionCore:gear:2>);
 recipes.remove(<EnderIO:itemMachinePart:1>); 
-recipes.addShaped(<ResonantInductionCore:gear:0>, [[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
-recipes.addShaped(<ResonantInductionCore:gear:1>, [[<ore:stoneRod>, <ore:cobblestone>, <ore:stoneRod>], [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>], [<ore:stoneRod>, <ore:cobblestone>, <ore:stoneRod>]]);
+recipes.addShaped(<BuildCraft|Core:woodenGearItem>, [[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
+recipes.addShaped(<BuildCraft|Core:stoneGearItem>, [[<ore:stoneRod>, <ore:cobblestone>, <ore:stoneRod>], [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>], [<ore:stoneRod>, <ore:cobblestone>, <ore:stoneRod>]]);
 recipes.addShaped(<BuildCraft|Core:diamondGearItem>, [[<ore:diamondNugget>, <ore:gemDiamond>, <ore:diamondNugget>], [<ore:gemDiamond>, <ore:gearGold>, <ore:gemDiamond>], [<ore:diamondNugget>, <ore:gemDiamond>, <ore:diamondNugget>]]);
 recipes.addShaped(<Railcraft:part.gear:2>, [[<ore:nuggetSteel>, <ore:ingotSteel>, <ore:nuggetSteel>], [<ore:ingotSteel>, <ore:gearStone>, <ore:ingotSteel>], [<ore:nuggetSteel>, <ore:ingotSteel>, <ore:nuggetSteel>]]);
-recipes.addShaped(<ResonantInductionCore:gear:2>, [[<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>], [<minecraft:iron_ingot>, <ore:gearStone>, <minecraft:iron_ingot>], [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>]]);
+recipes.addShaped(<BuildCraft|Core:ironGearItem>, [[<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>], [<minecraft:iron_ingot>, <ore:gearStone>, <minecraft:iron_ingot>], [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>]]);
 recipes.addShaped(<ThermalFoundation:material:13>, [[<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>], [<ore:ingotGold>, <ore:gearIron>, <ore:ingotGold>], [<ore:nuggetGold>, <ore:ingotGold>, <ore:nuggetGold>]]);
 recipes.addShaped(<ThermalFoundation:material:128>, [[<ore:nuggetCopper>, <ore:ingotCopper>, <ore:nuggetCopper>], [<ore:ingotCopper>, <ore:gearStone>, <ore:ingotCopper>], [<ore:nuggetCopper>, <ore:ingotCopper>, <ore:nuggetCopper>]]);
 recipes.addShaped(<ThermalFoundation:material:129>, [[<ore:nuggetTin>, <ore:ingotTin>, <ore:nuggetTin>], [<ore:ingotTin>, <ore:gearStone>, <ore:ingotTin>], [<ore:nuggetTin>, <ore:ingotTin>, <ore:nuggetTin>]]);
@@ -149,13 +145,7 @@ recipes.addShaped(<ThermalFoundation:material:137>, [[<ore:nuggetBronze>, <ore:i
 recipes.addShaped(<ThermalFoundation:material:138>, [[<ore:nuggetSignalum>, <ore:ingotSignalum>, <ore:nuggetSignalum>], [<ore:ingotSignalum>, <ore:gearStone>, <ore:ingotSignalum>], [<ore:nuggetSignalum>, <ore:ingotSignalum>, <ore:nuggetSignalum>]]);
 recipes.addShaped(<ThermalFoundation:material:139>, [[<ore:nuggetLumium>, <ore:ingotLumium>, <ore:nuggetLumium>], [<ore:ingotLumium>, <ore:gearStone>, <ore:ingotLumium>], [<ore:nuggetLumium>, <ore:ingotLumium>, <ore:nuggetLumium>]]);
 recipes.addShaped(<ThermalFoundation:material:140>, [[<ore:nuggetEnderium>, <ore:ingotEnderium>, <ore:nuggetEnderium>], [<ore:ingotEnderium>, <ore:gearPlatinum>, <ore:ingotEnderium>], [<ore:nuggetEnderium>, <ore:ingotEnderium>, <ore:nuggetEnderium>]]);
-<ore:gearWood>.add(<ResonantInductionCore:gear:0>);
-<ore:gearStone>.add(<ResonantInductionCore:gear:1>);
 <ore:gearStone>.remove(<EnderIO:itemMachinePart:1>);
-<ore:gearIron>.add(<ResonantInductionCore:gear:2>);
-<ore:gearWood>.remove(<BuildCraft|Core:woodenGearItem>);
-<ore:gearStone>.remove(<BuildCraft|Core:stoneGearItem>);
-<ore:gearIron>.remove(<BuildCraft|Core:ironGearItem>);
 <ore:gearIron>.remove(<Railcraft:part.gear:1>);
 <ore:gearIron>.remove(<ThermalFoundation:material:12>);
 <ore:gearGold>.remove(<BuildCraft|Core:goldGearItem>);

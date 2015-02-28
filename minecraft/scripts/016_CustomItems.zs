@@ -30,3 +30,14 @@ mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:0>, [[<minecraft:iron_ing
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1>, [[<AncientWarfare:steel_ingot>,<AncientWarfare:steel_ingot>],[<AncientWarfare:steel_ingot>,<AncientWarfare:steel_ingot>]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2>, [[<ThermalFoundation:material:65>,<ThermalFoundation:material:65>],[<ThermalFoundation:material:65>,<ThermalFoundation:material:65>]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3>, [[<ThermalFoundation:material:64>,<ThermalFoundation:material:64>],[<ThermalFoundation:material:64>,<ThermalFoundation:material:64>]]);
+
+
+
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:0>*1, <Mekanism:DirtyDust:0>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:1>*1, <Mekanism:DirtyDust:1>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:2>*1, <Mekanism:DirtyDust:2>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:3>*1, <Mekanism:DirtyDust:3>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:4>*1, <Mekanism:DirtyDust:4>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:5>*1, <Mekanism:DirtyDust:5>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:6>*1, <Mekanism:DirtyDust:6>*1);
+mods.mekanism.Crusher.addRecipe(<Mekanism:Clump:7>*1, <Mekanism:DirtyDust:7>*1);
